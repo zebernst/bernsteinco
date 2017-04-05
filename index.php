@@ -1,9 +1,14 @@
-
+<?php
+include "_includes/head.php";
+?>
 <body>
+    <?php
+    include "_includes/nav.php";
+    ?>
     <h1> Welcome! </h1>
     <p> 
-        Bernstein & Co. is your number one destination for classic steakhouse food 
-        in a modern environment. Here at Bernstein & Co. we make it a priority 
+        Bernstein &amp; Co. is your number one destination for classic steakhouse food 
+        in a modern environment. Here at Bernstein &amp; Co. we make it a priority 
         to serve you the best meat on the market. We aim to provide a unique
         dining experience in our three amazing locations throughout the United 
         States. All of our locations provide locally sourced food -- guaranteeing
@@ -21,29 +26,37 @@
        Our Vermont location provides an urban oasis nestled within the mountains.
         With its clean lines and view of Lake Champlain, it is the perfect destination
         for a night out or a celebration. There is always something to celebrate, 
-        and with our 100 person party room it has never been easier. In Vermont, we partner with local farmers who provide the freshest in season ingredients. Our partners in Vermont include Butternut Mountain Farm, Shelburne Farms, Misty Knoll Farm, Bread & Butter Farm, Full Moon Farm, and the Shadow Cross Farm. Also, we provide a selection of alcohol from various breweries, vineyards and distilleries including Lost Nation Brewing, Zero Gravity Brewery, Stone Corral Brewery, Smugglers’ Notch Distillery, Mad River Distillers, Lincoln Peak Vineyard, and Shelburne Vineyard. 
+        and with our 100 person party room it has never been easier. In Vermont,
+        we partner with local farmers who provide the freshest in season ingredients.
+        Our partners in Vermont include Butternut Mountain Farm, Shelburne Farms, Misty Knoll Farm, 
+        Bread &amp; Butter Farm, Full Moon Farm, and the Shadow Cross Farm. Also, we provide a selection
+        of alcohol from various breweries, vineyards and distilleries including Lost Nation Brewing, 
+        Zero Gravity Brewery, Stone Corral Brewery, Smugglers’ Notch Distillery, Mad River Distillers,
+        Lincoln Peak Vineyard, and Shelburne Vineyard. 
 
     </p>
     <p>
       Meanwhile, our city locations bring the outside in providing an escape from 
        the busy life of the city. By bringing elements such as wood inside, you 
        are transported into the mountains, even if the view outside is one of the
-       concrete jungle.  Our partners in Chicago and Boston include Parlee Farms, Verrill Farm, Didier Farms, and Heritage Prairie Farm all of which are dedicated into making your dining experience delicious and out of this world. 
+       concrete jungle.  Our partners in Chicago and Boston include Parlee Farms, 
+        Verrill Farm, Didier Farms, and Heritage Prairie Farm all of which are dedicated
+        into making your dining experience delicious and out of this world. 
     </p>
     <p>
        Whether you are looking for a new dining experience, or to celebrate
-       an event, Bernstein & Co. offers it all! So come and try some of
+       an event, Bernstein &amp; Co. offers it all! So come and try some of
        delicious dishes and let us serve you today!   
     </p>
     <p>
       Feedback from Real Customers 
   “Wonderful atmosphere, great people, and an overall good time! -Stacy”
   “Great food! Perfect place for a celebration! -Todd”
-  “Bernstein & Co. made my rehearsal dinner memorable and easy to organize – hassle free. - Meghan”
+  “Bernstein &amp; Co. made my rehearsal dinner memorable and easy to organize – hassle free. - Meghan”
   “Will definitely go back once I’m in the city again! - Chad”
-  “You can taste the freshness & their local selection of beers is out of this world!!! -Morgan” 
+  “You can taste the freshness &amp; their local selection of beers is out of this world!!! -Morgan” 
   “The meat is the good. -Bob”
-  “Honestly, some of the best food I have ever had. Their steaks are great & the staff is wonderful –Alex”
+  “Honestly, some of the best food I have ever had. Their steaks are great &amp; the staff is wonderful –Alex”
   “Best place to have a large party! Very well done. Their personal event coordinator really made my night special. -Eliza”
   “Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend. – Lisa Dion”
   
