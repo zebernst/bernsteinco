@@ -62,5 +62,6 @@ include "_includes/top.php";
   
     </p>
     
- 
-</body>
+<?php
+include "_includes/footer.php";
+    ?>
