@@ -1,9 +1,9 @@
 # bernsteinco
 
-Next Meeting: Friday, April 7 @ 4pm
+Next Meeting: Friday, April 14 @ 4pm
 
-Olivia: About page
+Olivia: Excerpt about self; lunch menu
 
-Maria: Welcome
+Maria: Excerpt about self; dinner menu
 
-Zach: Header, Nav, & Footer
+Zach: Top, Nav, & Footer; Excerpt about self; Drinks&Desset menu 
