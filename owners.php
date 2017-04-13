@@ -25,5 +25,5 @@ include "_includes/top.php";
     University of Vermont, she has been able to take Lisa Dion's Into to Website
     Development class where she discovered her love of CSS. With CSS, Maria has
     been able to channel her inner designer and has given her the ability to create
-    cool websites. Her CSS skills were spotted by Bernstein & Co. where she is now
+    cool websites. Her CSS skills were spotted by Bernstein &amp; Co. where she is now
     working. With CSS, the possibilities are endless. </p>
