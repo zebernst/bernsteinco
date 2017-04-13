@@ -27,3 +27,6 @@ include "_includes/top.php";
     been able to channel her inner designer and has given her the ability to create
     cool websites. Her CSS skills were spotted by Bernstein &amp; Co. where she is now
     working. With CSS, the possibilities are endless. </p>
+<?php
+include "_includes/footer.php";
+    ?>
