@@ -5,7 +5,7 @@ include "_includes/top.php";
      <?php
     include "_includes/nav.php";
     ?>
-    <div class="locations">
+    <div class="location">
     <h1> Boston, Massachusetts </h1>
         <p> 75 Arlington St </p>
         <p> Boston, MA 02116</p>
