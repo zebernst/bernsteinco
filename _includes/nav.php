@@ -1,4 +1,4 @@
-<!-- ######################     Main Navigation   ########################## -->
+<!-- main navigation -->
 <nav>
     <ol>
         <?php
