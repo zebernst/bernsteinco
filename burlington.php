@@ -2,9 +2,12 @@
 <?php include "_includes/nav.php";?>
 <div class="location">
     <h1>Burlington, Vermont</h1>
-    <p>7 Church St.</p>
-    <p>Burlington, VT 05401</p>
-    <p>Phone: (802)-576-8492</p>
+    <p><a class="address" href="//www.google.com/maps/place/7+Church+St,+Burlington,+VT+05401">
+    7 Church St.<br/>
+    Burlington, VT 05401
+    </a></p>
+    <!-- TODO: put fontawesome phone icon in before telephone number -->
+    <p>Phone: <a class="phone" href="tel:802-576-8492">(802)-576-8492</a></p>
 </div>
 <div class="hours">
     <h2>Hours</h2>

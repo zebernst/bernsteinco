@@ -2,9 +2,11 @@
 <?php include "_includes/nav.php";?>
 <div class="location">
     <h1>Chicago, Illinois</h1>
-    <p>218 W Kinzie St</p>
-    <p>Chicago, IL 60654</p>
-    <p>Phone: (312)-956-0053</p>
+    <p><a class="address" href="//www.google.com/maps/place/218+W+Kinzie+St,+Chicago,+IL+60654">
+    218 W Kinzie St<br/>
+    Chicago, IL 60654
+    </a></p>
+    <p>Phone: <a class="phone" href="tel:312-956-0053">(312)-956-0053</a></p>
 </div>
 <div class="hours">
     <h2>Hours</h2>
