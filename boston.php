@@ -2,7 +2,7 @@
 <?php include "_includes/nav.php";?>
 <div class="location">
     <h1>Boston, Massachusetts</h1>
-    <p><a class="address" href="//www.google.com/maps/place/75+Arlington+St,+Boston,+MA+02116">
+    <p><a target="_blank" class="address" href="//www.google.com/maps/place/75+Arlington+St,+Boston,+MA+02116">
     75 Arlington St<br/>
     Boston, MA 02116
     </a></p>

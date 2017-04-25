@@ -2,7 +2,7 @@
 <?php include "_includes/nav.php";?>
 <div class="location">
     <h1>Chicago, Illinois</h1>
-    <p><a class="address" href="//www.google.com/maps/place/218+W+Kinzie+St,+Chicago,+IL+60654">
+    <p><a target="_blank" class="address" href="//www.google.com/maps/place/218+W+Kinzie+St,+Chicago,+IL+60654">
     218 W Kinzie St<br/>
     Chicago, IL 60654
     </a></p>

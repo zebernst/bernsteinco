@@ -2,7 +2,7 @@
 <?php include "_includes/nav.php";?>
 <div class="location">
     <h1>Burlington, Vermont</h1>
-    <p><a class="address" href="//www.google.com/maps/place/7+Church+St,+Burlington,+VT+05401">
+    <p><a target="_blank" class="address" href="//www.google.com/maps/place/7+Church+St,+Burlington,+VT+05401">
     7 Church St.<br/>
     Burlington, VT 05401
     </a></p>
