@@ -10,6 +10,9 @@ Zach: Top, Nav, & Footer; Excerpt about self;
 Also Zach: convert menu csv's to JSON and write PHP to read and use json  
 Also Also Zach: I'll do the form's PHP and HTML but i'm not touching that CSS with a ten-foot pole
 
+@Zach: Nav Bar =
+Home About Menu Locations Reservations
+
 Things needed for Form
 1. Drop down for which location
 2. Name of person
