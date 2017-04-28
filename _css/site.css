@@ -78,6 +78,18 @@ nav .activePage{
     background-color: rgba(0,0,0,.5);
 }
 
+.about {
+  border-top: 2px solid white;
+   background-color: #54250f ;
+   font-family: 'Raleway', sans-serif;  
+}
+
+.about img{
+    display:block;
+    margin:auto;
+}
+
+
 #footer{
     background-color: black;
     border-top: 2.5px solid white;
