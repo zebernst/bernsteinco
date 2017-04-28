@@ -29,7 +29,7 @@ $email = '';
 $phoneNumber = '';
 $partySize = '';
 
-// datetime picker
+// datetime 
 $resDateTime = '';
 
 // dropdown
@@ -99,9 +99,64 @@ if (isset($_POST["btnSubmit"])) {
         die($msg);
     }
 
-    
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    // Sanitize Data
 
-    
+    // text boxes
+    $firstName = htmlentities($_POST["txtFirstName"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $firstName;
+    $lastName = htmlentities($_POST["txtLastName"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $lastName;
+    $email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);
+    $dataRecord[] = $email;
+    $phoneNumber = htmlentities($_POST["txtPhoneNumber"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $phoneNumber;
+    $partySize = htmlentities($_POST["txtPartySize"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $partySize;
+
+    // date/time stamp (dts)
+    $resDateTime = htmlentities($_POST["dtsReservation"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $resDateTime;
+
+    // dropdown
+    $location = htmlentities($_POST["lstLocation"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $location;
+
+    // radio buttons
+    $specOccasion = htmlentities($_POST["radOccasion"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $specOccasion;
+
+    // check boxes
+    if(isset($_POST["chkAdult"])) {
+        $ageAdult = true;
+        $totalChecked++;
+    } else {
+        $ageAdult = false;
+    }
+    $dataRecord[] = $ageAdult;
+    if(isset($_POST["chkChild"])) {
+        $ageChild = true;
+        $totalChecked++;
+    } else {
+        $ageChild = false;
+    }
+    $dataRecord[] = $ageChild;
+    if(isset($_POST["chkInfant"])) {
+        $ageInfant = true;
+        $totalChecked++;
+    } else {
+        $ageInfant = false;
+    }
+    $dataRecord[] = $ageInfant;
+
+    // text area
+    $comments = htmlentities($_POST["txtComments"], ENT_QUOTES, "UTF-8");
+    $dataRecord[] = $comments;
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    // Validate Data
+
+
 /*
 - Drop down for which location √
 - Name of person (first and last) √
