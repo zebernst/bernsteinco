@@ -3,6 +3,7 @@ include "_includes/top.php";
 include "_includes/nav.php"; 
 ?>
 <!--####   Main text is below  ###-->
+<article class="about">
 <h1>About Us</h1>
 
 <h2>Dedication to Providing Quality Ingredients</h2>
@@ -22,4 +23,5 @@ include "_includes/nav.php";
 <img src="_media/donations.jpg" alt="donation box" align="center">
 <h2>Giving Back</h2>
 <p>As a token of our appreciation to our loyal and generous customers, Bernstein and Co. has a dedication to giving back to its surrounding communities and minimizing its waste. Each location has a strong connection with local organizations by which donations are coordinated. Each night, leftover food is gathered and packaged to be given to food drives that serve the immediate needs of people struggling to afford to feed their families.</p>
-<?php include "_includes/footer.php"; ?>
+</article>
+  <?php include "_includes/footer.php"; ?>
