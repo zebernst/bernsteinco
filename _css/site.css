@@ -6,13 +6,33 @@ background-color:black;
 border-bottom:2px solid white;
     
 }
+nav ol{
+    margin:0;
+    padding:1em;
+}
 nav li{
     display:inline;
-    padding:1em;
+    padding:7%;
     font-family: 'Open Sans', sans-serif;
     color:white;
     text-decoration:underline;
 }
+nav a:link{
+     text-decoration: underline;
+    color:white;
+}
+nav a:visited{
+     text-decoration: underline;
+    color:white; 
+}
+nav a:hover{
+    color:#bb6026 ;
+}
+nav a:active{
+    color:white
+    text-decoration:none;
+}
+
 .index{
    border-top: 2px solid white;
    background-color: black;
