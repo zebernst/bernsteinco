@@ -1,5 +1,7 @@
 <?php include "_includes/top.php";?>
 <?php include "_includes/nav.php";?>
+
+<article class="index">
 <h1> Welcome! </h1>
 <p>Bernstein &amp; Co. is your number one destination for classic steakhouse food in a modern environment. Here at Bernstein &amp; Co. we make it a priority to serve you the best meat on the market. We aim to provide a unique dining experience in our three amazing locations throughout the United States. All of our locations provide locally sourced food -- guaranteeing freshness and ensuring flavor.</p>
 <p>Our menu is changed seasonally to reflect the produce in season. We partner with local farms to help enhance the access to their delicious food while helping the local community. The menu is crafted by our seasoned chefs who understand the ingredients and the best way to develop the flavors in the dishes. Our aim is to provide our guests with the best food out there and showing them just how good food can be.</p>
@@ -20,4 +22,5 @@
         <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion</li>
     </ul>
 </p>
+</article>
 <?php include "_includes/footer.php";?>
