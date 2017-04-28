@@ -55,7 +55,7 @@ nav a:active{
     color:#bb6026;
     text-decoration: underline;
     font-size: 45px;
-    padding-left:1%;
+    padding-left:.75%;
     margin-bottom:-1.5%;
 }
 .index img{
@@ -64,7 +64,7 @@ nav a:active{
 .index p{
     color:#ededec;
     font-size: 17px;
-    padding-left:3%;
+    padding-left:1.5%;
 }
 .index ul{
     margin:0;
