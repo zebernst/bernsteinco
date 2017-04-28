@@ -1,0 +1,12 @@
+footer {
+    background-color: black;
+    border-top: 2px solid white;
+    width: 100%;
+    height: 10%;
+}
+
+footer p{
+    color:gainsboro;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+}
