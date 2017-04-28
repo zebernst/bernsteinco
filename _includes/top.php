@@ -31,8 +31,9 @@
         print "\n" . "<!-- include libraries -->" . "\n";
         require_once('_lib/security.php');
 
-        if ($path_parts['filename'] == "form") {
+        if ($path_parts['filename'] == "reservations") {
             include "lib/validation-functions.php";
+            include "lib/mail-message.php";
         }
 		?>
 	</head>
