@@ -22,7 +22,7 @@
 
 		<!-- include css stylesheets -->
 		<link rel="stylesheet" href="_css/site.css" type="text/css" media="screen">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Raleway"" rel="stylesheet">
         <?php
 		// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		// %%    include libraries    %%
