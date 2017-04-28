@@ -117,3 +117,15 @@ footer p{
     font-size: .75em;
     padding-right: 2em;
 }
+
+footer a:link{
+     text-decoration: none;
+    color:gainsboro;
+}
+footer a:visited{
+     text-decoration: none;
+    color:gainsboro; 
+}
+footer a:hover{
+    color:#bb6026 ;
+}
