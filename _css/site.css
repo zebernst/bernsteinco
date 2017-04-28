@@ -4,16 +4,17 @@ body {
 header {
  background-color:black;
  margin:0;
+ border-bottom: 3px double #bb6026;
 }
 header p{
     font-family: 'Pacifico', cursive;
     font-size:65px; 
     color:white;
     margin:auto;
+    text-align: center;
 }
 nav{
 background-color:black;
-border-bottom:2px solid white;
     
 }
 nav ol{
