@@ -50,16 +50,20 @@ nav .activePage{
    background-color: #54250f ;
    font-family: 'Raleway', sans-serif;
 }
+#homepage{
+    float:right;
+}
 .index h1{
     font-family: 'Pacifico', cursive;
     color:#bb6026;
     text-decoration: underline;
     font-size: 250%;
     padding-left:.75%;
-    margin-bottom:-1.5%;
+    margin-bottom:-1%;
 }
 .index img{
     width:50%;
+    float:right:
 }
 .index p{
     color:#ededec;
