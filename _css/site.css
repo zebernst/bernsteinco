@@ -8,7 +8,7 @@ header {
 }
 header p{
     font-family: 'Pacifico', cursive;
-    font-size:350%; 
+    font-size:4.5em; 
     color:white;
     margin:auto;
     text-align: center;
@@ -26,24 +26,21 @@ nav li{
     padding:7%;
     font-family: 'Open Sans', sans-serif;
     color:white;
-    text-decoration:underline;
+    text-decoration:none;
     margin:auto;
 }
 nav a:link{
-     text-decoration: underline;
+     text-decoration: none;
     color:white;
 }
 nav a:visited{
-     text-decoration: underline;
+     text-decoration: none;
     color:white; 
 }
 nav a:hover{
     color:#bb6026 ;
 }
-nav .activePage{
-    color:white
-    text-decoration:none;
-}
+
 
 .index{
    border-top: 2px solid white;
