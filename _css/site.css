@@ -8,17 +8,21 @@ body {
 }
 .index h1{
     font-family: 'Pacifico', cursive;
-    color:	#ecb939;
-    font-size: 40px;
+    color:#bb6026;
+    text-decoration: underline;
+    font-size: 45px;
+}
+.index img{
+    width:30%;
 }
 .index p{
     color:#ededec;
-    font-size: 20px;
+    font-size: 17px;
 }
 .index ul{
     margin:0;
-    color:#f0c75e;
-    font-size: 17px;
+    color: #bb6026;
+    font-size: 15px;
     padding-bottom:3em;
 }
 
