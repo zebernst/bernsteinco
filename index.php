@@ -21,6 +21,8 @@
         <li>“Best place to have a large party! Very well done. Their personal event coordinator really made my night special.” -Eliza</li>
         <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion</li>
     </ul>
+    <p></p>
+    <p></p>
 
 </article>
 <?php include "_includes/footer.php";?>
