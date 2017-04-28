@@ -8,7 +8,7 @@ header {
 }
 header p{
     font-family: 'Pacifico', cursive;
-    font-size:350px; 
+    font-size:350%; 
     color:white;
     margin:auto;
     text-align: center;
