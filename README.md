@@ -1,4 +1,5 @@
 # bernsteinco
+## **_DUE DATE: FRIDAY, MAY 5 AT MIDNIGHT_**
 
 Next Meeting: Thursday, April 27 @ 4:30pm
 
