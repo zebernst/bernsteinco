@@ -8,7 +8,8 @@
 <p>Our Vermont location provides an urban oasis nestled within the mountains. With its clean lines and view of Lake Champlain, it is the perfect destination for a night out or a celebration. There is always something to celebrate, and with our 100 person party room it has never been easier. In Vermont, we partner with local farmers who provide the freshest in season ingredients. Our partners in Vermont include Butternut Mountain Farm, Shelburne Farms, Misty Knoll Farm, Bread &amp; Butter Farm, Full Moon Farm, and the Shadow Cross Farm. Also, we provide a selection of alcohol from various breweries, vineyards and distilleries including Lost Nation Brewing, Zero Gravity Brewery, Stone Corral Brewery, Smugglers’ Notch Distillery, Mad River Distillers, Lincoln Peak Vineyard, and Shelburne Vineyard.</p>
 <p>Meanwhile, our city locations bring the outside in providing an escape from the busy life of the city. By bringing elements such as wood inside, you are transported into the mountains, even if the view outside is one of the concrete jungle. Our partners in Chicago and Boston include Parlee Farms, Verrill Farm, Didier Farms, and Heritage Prairie Farm all of which are dedicated into making your dining experience delicious and out of this world.</p>
 <p>Whether you are looking for a new dining experience, or to celebrate an event, Bernstein &amp; Co. offers it all! So come and try some of delicious dishes and let us serve you today!</p>
-<p><strong>Feedback from Real Customers</strong></p>
+<div id="feedback">
+    <p><strong>Feedback from Real Customers</strong></p>
 
     <ul>
         <li>“Wonderful atmosphere, great people, and an overall good time!” -Stacy</li>
@@ -21,6 +22,6 @@
         <li>“Best place to have a large party! Very well done. Their personal event coordinator really made my night special.” -Eliza</li>
         <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion</li>
     </ul>
-
+    </div>
 </article>
 <?php include "_includes/footer.php";?>
