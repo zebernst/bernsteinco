@@ -8,7 +8,7 @@ header {
 }
 header p{
     font-family: 'Pacifico', cursive;
-    font-size:350%; 
+    font-size:4.5em; 
     color:white;
     margin:auto;
     text-align: center;
@@ -24,68 +24,70 @@ nav ol{
 nav li{
     display:inline;
     padding:7%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:white;
-    text-decoration:underline;
+    text-decoration:none;
     margin:auto;
 }
 nav a:link{
-     text-decoration: underline;
+     text-decoration: none;
     color:white;
 }
 nav a:visited{
-     text-decoration: underline;
+     text-decoration: none;
     color:white; 
 }
 nav a:hover{
     color:#bb6026 ;
 }
-nav .activePage{
-    color:white
-    text-decoration:none;
-}
+
 
 .index{
    border-top: 2px solid white;
    background-color: #54250f ;
    font-family: 'Raleway', sans-serif;
 }
-#homepage{
-    float:right;
-}
+
 .index h1{
     font-family: 'Pacifico', cursive;
     color:#bb6026;
     text-decoration: underline;
-    font-size: 250%;
+    font-size: 2em;
     padding-left:.75%;
-    margin-bottom:-1%;
+    margin-bottom:.1em;
 }
 .index img{
-    width:50%;
-    float:right:
+      width: 46%;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 .index p{
     color:#ededec;
-    font-size: 100%;
+    font-size: 1em;
     padding-left:1.5%;
 }
 .index #feedback{
     color: #bb6026;
     padding: 1em;
-    width: 70%;
+    width: 40%;
     list-style: inside;
-    margin: auto;
+    margin-left:1.5%;
     line-height: 2em;
     list-style-type: none;
     background-color: rgba(0,0,0,.5);
+    
 }
 .index #feedback p{
-    font-size:100%;
+    font-size:1em;
 }
 .index #feedback ul{
     list-style-type:none;
-    font-size: 90%;
+    font-size: .8em;
+}
+#extra {
+    margin:0;
 }
     
 
@@ -112,6 +114,18 @@ footer p{
     color:gainsboro;
     font-family: 'Open Sans', sans-serif;
     text-align: right;
-    font-size: 13px;
+    font-size: .75em;
     padding-right: 2em;
+}
+
+footer a:link{
+     text-decoration: none;
+    color:gainsboro;
+}
+footer a:visited{
+     text-decoration: none;
+    color:gainsboro; 
+}
+footer a:hover{
+    color:#bb6026 ;
 }
