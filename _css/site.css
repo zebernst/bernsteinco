@@ -40,7 +40,7 @@ nav a:visited{
 nav a:hover{
     color:#bb6026 ;
 }
-nav a:active{
+nav .activePage{
     color:white
     text-decoration:none;
 }
@@ -67,10 +67,15 @@ nav a:active{
     padding-left:1.5%;
 }
 .index ul{
-    margin:0;
     color: #bb6026;
     font-size: 15px;
-    padding-bottom:3em;
+    padding: 1em;
+    width: 70%;
+    list-style: inside;
+    margin: auto;
+    line-height: 2em;
+    list-style-type: none;
+    background-color: rgba(0,0,0,.5);
 }
 
 #footer{
