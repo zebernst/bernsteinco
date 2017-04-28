@@ -83,7 +83,23 @@ $dataRecord = array();
 $mailed = false;
 
 
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%% Process Form Submission %%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+if (isset($_POST["btnSubmit"])) {
 
+	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	// Security
+	$thisURL = $domain . $phpSelf;
+
+	if (!securityCheck($thisURL)) {
+        $msg = "<p>Sorry, you cannot access this page. ";
+        $msg .= "A security breach has been detected and reported.</p>";
+        die($msg);
+    }
+
+    
 
     
 /*
