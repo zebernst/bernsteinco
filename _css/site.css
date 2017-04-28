@@ -63,7 +63,8 @@ nav .activePage{
 }
 .index img{
     width:50%;
-    float:right:
+    float:right;
+    display:block;
 }
 .index p{
     color:#ededec;
