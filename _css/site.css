@@ -15,6 +15,11 @@ body {
     color:#ededec;
     font-size: 20px;
 }
+.index ul{
+    margin:0;
+    color:#f0c75e;
+    font-size: 17px;
+}
 
 #footer{
     background-color: black;
