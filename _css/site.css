@@ -71,13 +71,13 @@ nav .activePage{
 .index #feedback{
     color: #bb6026;
     padding: 1em;
-    width: 70%;
+    width: 40%;
     list-style: inside;
-    margin: auto;
+    margin-left:1.5%;
     line-height: 2em;
     list-style-type: none;
     background-color: rgba(0,0,0,.5);
-    clear:both;
+    
 }
 .index #feedback p{
     font-size:100%;
