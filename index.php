@@ -9,7 +9,7 @@
 <p>Meanwhile, our city locations bring the outside in providing an escape from the busy life of the city. By bringing elements such as wood inside, you are transported into the mountains, even if the view outside is one of the concrete jungle. Our partners in Chicago and Boston include Parlee Farms, Verrill Farm, Didier Farms, and Heritage Prairie Farm all of which are dedicated into making your dining experience delicious and out of this world.</p>
 <p>Whether you are looking for a new dining experience, or to celebrate an event, Bernstein &amp; Co. offers it all! So come and try some of delicious dishes and let us serve you today!</p>
 <p><strong>Feedback from Real Customers</strong></p>
-<p>
+
     <ul>
         <li>“Wonderful atmosphere, great people, and an overall good time!” -Stacy</li>
         <li>“Great food! Perfect place for a celebration!” -Todd</li>
@@ -21,6 +21,6 @@
         <li>“Best place to have a large party! Very well done. Their personal event coordinator really made my night special.” -Eliza</li>
         <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion</li>
     </ul>
-</p>
+
 </article>
 <?php include "_includes/footer.php";?>
