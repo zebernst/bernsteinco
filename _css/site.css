@@ -9,6 +9,11 @@ body {
 .index h1{
     font-family: 'Pacifico', cursive;
     color:	#ecb939;
+    font-size: 40px;
+}
+.index p{
+    color:#ededec;
+    font-size: 20px;
 }
 
 #footer{
