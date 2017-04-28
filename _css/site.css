@@ -50,9 +50,7 @@ nav .activePage{
    background-color: #54250f ;
    font-family: 'Raleway', sans-serif;
 }
-#homepage{
-    float:right;
-}
+
 .index h1{
     font-family: 'Pacifico', cursive;
     color:#bb6026;
@@ -64,7 +62,6 @@ nav .activePage{
 .index img{
     width:50%;
     float:right;
-    display:block;
 }
 .index p{
     color:#ededec;
@@ -80,6 +77,7 @@ nav .activePage{
     line-height: 2em;
     list-style-type: none;
     background-color: rgba(0,0,0,.5);
+    clear:both;
 }
 .index #feedback p{
     font-size:100%;
