@@ -86,6 +86,9 @@ nav .activePage{
     list-style-type:none;
     font-size: 90%;
 }
+#extra {
+    margin:0;
+}
     
 
 .about {
