@@ -1,6 +1,18 @@
 body {
     margin:0;
 }
+nav{
+background-color:black;
+border-bottom:2px solid white;
+    
+}
+nav li{
+    display:inline;
+    padding:1em;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    text-decoration:underline;
+}
 .index{
    border-top: 2px solid white;
    background-color: black;
@@ -10,7 +22,8 @@ body {
     font-family: 'Pacifico', cursive;
     color:#bb6026;
     text-decoration: underline;
-    font-size: 45px;
+    font-size: 50px;
+    text-indent:5em:
 }
 .index img{
     width:50%;
