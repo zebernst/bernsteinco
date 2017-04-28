@@ -38,3 +38,8 @@
 	</head>
 	<!-- begin body -->
     <?php print '<body id="' . $path_parts['filename'] . '">'; ?>
+	<header>
+	<p> Bernstein &amp; Co. </p>
+ </header>													 
+														 
+														 
