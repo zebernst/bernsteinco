@@ -112,12 +112,15 @@ nav a:hover{
 }
 
 .about h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Raleway', cursive;
     color:white;
     text-decoration: underline;
     font-size: 2em;
     padding-left:.75%;
     margin-bottom:.1em;
+}
+.about h2{
+    font-family: 'Pacifico', cursive;
 }
 
 .about p{
