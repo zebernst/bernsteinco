@@ -33,7 +33,7 @@ include "_includes/nav.php";
   <p>At Bernstein &amp; Co. we strive to deliver not only premier food and beverage, but to create an overall unforgettable experience. Our trusted architects and interior designers have dedicated themselves to configuring everything from our our dining rooms and table situations, to our curtains, booth covers, and menu designs, to our custom-made bar and stools, to create the most inviting environment for all patrons, while retaining threads of the original Bernstein &amp; Co. appeal.</p>
 </div>
   
-  <img id="family2" src="_media/donations.jpg" alt="vegetable boxes">
+  <img id="family2" src="_media/donation.jpg" alt="vegetable boxes">
   
 <div class="abtBox5">
   <h2><strong>Giving Back</strong></h2>
