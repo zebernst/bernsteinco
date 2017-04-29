@@ -274,19 +274,70 @@ if (isset($_POST["btnSubmit"])) {
 } // end if form is submitted
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-/*
-- Drop down for which location √
-- Name of person (first and last) √
-- Date/Time of Reservation √
-- Phone number √
-- Email √
-- Number of people √
-- Anything we should know (comments box)
-- radio buttons (special occasion): graduation, anniversary, wedding, etc. √
-- who's coming: adult, child, infant (for menu types and baby chairs)
-- Submit Button
-*/
-
+// Display Form
 ?>
+
+<article id='form article'>
+	<?php 
+	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	// If first time on page OR errors exist, display form
+
+	if (isset($_POST["btnSubmit"]) and empty($errorMsg)) { // closing if brace marked with "end body submit"
+		print '<h2>Thank you for reserving a table with us.</h2>';
+
+		if ($mailed) {
+			print "<p>For your records, a copy of this reservation has been emailed to <pre>$email</pre></p>";
+		} elseif (!$mailed) {
+			print "<p>A copy of this reservation was sent to you at <pre>$email</pre>, but it was unable to be delivered.";
+		}
+
+		print $message;
+
+	} else {
+
+		print '<h2>Reserve a table</h2>';
+		print '<p class="form-heading">We\'d be delighted to have you!</p>';
+
+		// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		// Error messages
+
+		if ($errorMsg) {
+			print "<div id='errors'>\n";
+			print "<p><strong>There was a problem with your reservation. The form has the following mistakes that need to be fixed:</strong></p>\n";
+			print "<ol>\n";
+
+			foreach ($errorMsg as $err) {
+				print "<li>$err</li>\n";
+			}
+
+			print "</ol>\n";
+			print "</div>\n";
+		}
+
+		// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		// Form HTML
+
+		?>
+			<form action="<?php print $phpSelf; ?>" id="frmReserve" method="post">
+				<!-- form here 
+					- Drop down for which location 
+					- Name of person (first and last) 
+					- Date/Time of Reservation 
+					- Phone number 
+					- Email 
+					- Number of people 
+					- Anything we should know (comments box)
+					- radio buttons (special occasion): graduation, anniversary, wedding, etc. 
+					- who's coming: adult, child, infant (for menu types and baby chairs)
+					- Submit Button
+				-->
+
+			</form>
+
+
+		<?php
+	} // end body submit
+	?>
+\
+</article>
 <?php include "_includes/footer.php ";?>
