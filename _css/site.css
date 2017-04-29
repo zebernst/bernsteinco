@@ -102,6 +102,17 @@ nav a:hover{
     margin:auto;
 }
 
+.abtBox{
+ float: left;
+ background-color:rgba(245,244,244,.7);
+ width: 40%;
+ margin-left:5%;
+ margin-right:5%; 
+ 
+}
+.abtBox p{
+    font-size: 1em;
+}
 
 #footer{
     background-color: black;
