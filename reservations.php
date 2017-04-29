@@ -156,6 +156,124 @@ if (isset($_POST["btnSubmit"])) {
     // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     // Validate Data
 
+    // text boxes
+    if ($firstName == "") {
+        $errorMsg[] = "Please enter your first name.";
+        $firstNameERROR = true;
+    } elseif (!verifyAlphaNum($firstName)) {
+        $errorMsg[] = "Your first name contains an invalid character.";
+        $firstNameERROR = true;
+    }
+    if ($lastName == "") {
+        $errorMsg[] = "Please enter your last name.";
+        $lastNameERROR = true;
+    } elseif (!verifyAlphaNum($lastName)) {
+        $errorMsg[] = "Your last name contains an invalid character.";
+        $lastNameERROR = true;
+    }
+    if ($email == "") {
+        $errorMsg[] = "Email address cannot be blank.";
+        $emailERROR = true;
+    } elseif (!verifyEmail($email)) {
+        $errorMsg[] = "The email address you entered is not a valid email address.";
+        $emailERROR = true;
+    }
+    if ($phoneNumber == "") {
+    	$errorMsg[] = "Phone number cannot be blank.";
+    	$phoneNumberERROR = true;
+    } elseif (!verifyPhone($phoneNumber)) {
+    	$errorMsg[] = "Your phone number appears to be invalid.";
+    	$phoneNumberERROR = true;
+    }
+
+    // datetime
+    if ($resDateTime == "") {
+    	$errorMsg[] = "Please enter a date and time for your reservation.";
+    	$resDateTimeERROR = true;
+    } elseif (!verifyAlphaNum($resDateTime)) {
+    	$errorMsg[] = "The date and time you entered are not in the correct format.";
+    	$resDateTimeERROR = true;
+    }
+
+    // dropdown
+    if ($location == "" or $location == "Select a location...") {
+    	$errorMsg[] = "Please select a restaurant location.";
+    	$locationERROR = true;
+    } elseif ($location != "Chicago" and $location != "Burlington" and $location != "Boston") {
+    	$errorMsg[] = "Please select a valid restaurant location.";
+    	$locationERROR = true;
+    }
+
+    // radio buttons
+    if ($specOccasion != "None" and $specOccasion != "Birthday" and $specOccasion != "Graduation" and $specOccasion != "Anniversary" and $specOccasion != "Wedding" and $specOccasion != "Other") {
+    	$errorMsg[] = "Please indicate whether your party is celebrating a special occasion or not.";
+    	$specOccasionERROR = true;
+    }
+
+    // check boxes
+    if ($totalChecked < 1){
+   		$errorMsg[] = "Please choose at least one age group.";
+    	$ageERROR = true;
+    }
+
+    // not validating the comments textarea because a) it's optional, not required and b) I don't need to censor out 
+    // certain characters in it because htmlentities() will take care of any malicious code.
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    // Process Form if Validation Successful
+    if (!$errorMsg) {
+    	if ($debug) print '<p>Form is valid</p>';
+
+    	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    	// Save data to CSV
+    	$filename = "_data/reservations.csv";
+    	if ($debug) print "\n\n<p>filename is $filename";
+        
+        // open file for appending
+        $file = fopen($filename, 'a');
+
+        // write data
+        fputcsv($file, $dataRecord);
+
+        // close file
+        fclose($file);
+
+        // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        // Create message
+
+        $message = '<h2>Your Reservation:</h2>';
+
+        foreach ($_POST as $htmlName => $value) {
+        	$message .= "<p>";
+
+        	// breaks up the form names into words. for example
+            // txtFirstName becomes First Name
+            $camelCase = preg_split('/(?=[A-Z])/', substr($htmlName, 3));
+
+            foreach ($camelCase as $oneWord) {
+                $message .= "$oneWord ";
+            }
+
+            $sanitizedValue = htmlentities($value, ENT_QUOTES, "UTF-8");
+            $message .= ": $sanitizedValue</p>";
+        }
+
+        // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        // Mail to user
+        $to = $email;
+        $cc = "";
+        $bcc = "";
+
+        $from = "Bernstein & Co. <reservations@bernsteinco.com>";
+
+        // $todaysDate = strftime("%x");
+        $subject = "Reservation Confirmation for $resDateTime";
+
+        $mailed = sendMail($to, $cc, $bcc, $from, $subject, $message);
+    } // end if form is valid
+} // end if form is submitted
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 /*
 - Drop down for which location √
