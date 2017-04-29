@@ -23,7 +23,7 @@ include "_includes/nav.php";
 <p>At Bernstein &amp; Co. we strive to deliver not only premier food and beverage, but to create an overall unforgettable experience. Our trusted architects and interior designers have dedicated themselves to configuring everything from our our dining rooms and table situations, to our curtains, booth covers, and menu designs, to our custom-made bar and stools, to create the most inviting environment for all patrons, while retaining threads of the original Bernstein &amp; Co. appeal.</p>
 
   
-<h2><strong>Giving Back</h2>
+  <h2><strong>Giving Back</strong></h2>
 <p>As a token of our appreciation to our loyal and generous customers, Bernstein and Co. has a dedication to giving back to its surrounding communities and minimizing its waste. Each location has a strong connection with local organizations by which donations are coordinated. Each night, leftover food is gathered and packaged to be given to food drives that serve the immediate needs of people struggling to afford to feed their families.</p>
 </article>
   <?php include "_includes/footer.php"; ?>
