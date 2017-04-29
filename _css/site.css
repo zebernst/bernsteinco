@@ -122,11 +122,13 @@ nav a:hover{
 .about h2{
     font-family: 'Pacifico', cursive;
     text-decoration: underline;
+    margin-top:.1em;
 }
 
 .about p{
     font-family: 'Open Sans', cursive;
     font-size:1em;
+    margin-top:-1em;
 }
 
 .about img{
