@@ -146,6 +146,7 @@ nav a:hover{
     margin:auto;
     padding:1%;
 }
+
 #family {
     display:block;
     width:50%;
@@ -156,12 +157,14 @@ nav a:hover{
     margin-top:1em;
     margin-bottom:1em;
 }
+
 .abtBox3{
     float: left;
     width: 35%;
     margin-right:5%;
     background-color:rgba(245,244,244,.7);
     margin-bottom:1em;
+    margin-top:1em;
     margin-left:1.5%;
     padding: 1%;
 }
