@@ -115,6 +115,15 @@ nav a:hover{
     font-size:1em;
 }
 
+about h1{
+    font-family: 'Pacifico', cursive;
+    color:white;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-left:.75%;
+    margin-bottom:.1em;
+}
+
 .about img{
     display:block;
     margin:auto;
