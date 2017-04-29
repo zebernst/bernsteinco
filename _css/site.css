@@ -96,6 +96,9 @@ nav a:hover{
    background-color: #54250f ;
    font-family: 'Raleway', sans-serif;  
 }
+.about p{
+    font-size:1em;
+}
 
 .about img{
     display:block;
@@ -111,8 +114,13 @@ nav a:hover{
  padding: 1%;
   
 }
-.abtBox p{
-    font-size: 1em;
+
+.lngBox{
+    clear:left;
+    width:94%;
+    margin-left: 3%;
+    margin-right:3%;
+    padding:1%;
 }
 
 #footer{
