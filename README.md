@@ -7,18 +7,17 @@ Olivia: Boston Location info, Chicago menu/location info
 
 Maria: Burlington Location info, Brainstrom CSS 
 
-Zach: Top, Nav, & Footer; Excerpt about self;   
-Also Zach: convert menu csv's to JSON and write PHP to read and use json  
-Also Also Zach: I'll do the form's PHP and HTML but i'm not touching that CSS with a ten-foot pole
+Zach:Excerpt about self, convert menu csv's to JSON and write PHP to read and use json  
 
-@Zach: Nav Bar =
-Home About Menu Locations Reservations
 
-Things needed for Form
-1. Drop down for which location
-2. Name of person
-3. Date/Time of Reservation 
-4. Phone number
-5. Email
-6. Anything we should know
-7. Submit Button
+Form elements:
+- Drop down for which location 
+- Name of person (first and last) 
+- Date/Time of Reservation 
+- Phone number 
+- Email 
+- Number of people 
+- Anything we should know (comments box)
+- radio buttons (special occasion): graduation, anniversary, wedding, etc. 
+- who's coming: adult, child, infant (for menu types and baby chairs)
+- Submit Button
