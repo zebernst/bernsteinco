@@ -17,7 +17,7 @@ include "_includes/nav.php";
   <h2><strong>Our Story</strong></h2>
 <p>Bernstein &amp; Co. has evolved from a quaint, one-room dining area in Burlington, Vermont, to a bustling, yet still cozy and modest restaurant. We now have four locations throughout the nation, in cities to which the Bernsteins are strongly connected, so as to maintain the strong sense of family in our restaurants. One of our biggest honors is not the numerous awards which numerous organizations have bestowed upon us, but the compliments that we receive nightly by our guests. Dining at Bernstein &amp; Co. is an experience that is impossible to find anywhere else. Come try it for yourself!</p>
   </div>
-  <img id="family" src="/_media/family.jpg" alt="family restaurant photo">
+  <img id="family" src="_media/family.jpg" alt="family restaurant photo">
   <div class="abtBox3"
   <h2><strong>Our Menu</strong></h2>
 <p>Steak is our claim to fame, and we pride ourselves on this. However, equally impressive is our ability to be a versatile and offer a wide range of options for all palettes. Beginning with our unique appetizers, daily special soups, fresh salads, and warm bread (complimentary to every party), and continuing through our multi-page main course menu, there are options that will please everyone in your group. Don’t see the meal you’ve been craving? Ask us, and we will be happy to create it for you! Dessert will never disappoint, either. Try one of our acclaimed cakes or pies, or a specialty coffee or tea to top off your dining experience.</p>
