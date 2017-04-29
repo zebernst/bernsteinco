@@ -5,11 +5,11 @@ include "_includes/nav.php";
 <!--####   Main text is below  ###-->
 <article class="about">
   <h1><strong>About Us</strong></h1>
-<div class="abtBox">
+<div class="abtBox1">
   <h2><strong>Dedication to Providing Quality Ingredients</strong></h2>
 <p>Bernstein &amp; Co. guarantees to deliver meals comprised of premium-quality ingredients. Our expert chefs ensure that your meal will be fresh, flavorful, and made to order according to your personal specifications. Whenever possible, our produce, meat, and artisan cheeses come from local sources, which gives makes dining at each location a unique experience.</p>
   </div>
-  <div class="abtBox">
+  <div class="abtBox2">
   <h2><strong>From Our Family To Yours</strong></h2>
 <p>As a fourth-generation family business, Bernstein &amp; Co. places high value on creating a relaxed, accommodating, and welcoming atmosphere. We know that dining out is a special experience. Whether you are having a large family gathering, out on a date night, or meeting friends for a casual meal, Bernstein &amp; Co. provides a comfortable setting for all.</p>
 </div>
