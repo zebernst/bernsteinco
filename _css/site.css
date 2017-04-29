@@ -93,8 +93,9 @@ nav a:hover{
 
 .about {
   border-top: 2px solid white;
-   background-color: #54250f ;
-   font-family: 'Raleway', sans-serif;  
+  background-color: #54250f ;
+  font-family: 'Raleway', sans-serif;  
+  margin:0;
 }
 .about p{
     font-size:1em;
@@ -105,22 +106,28 @@ nav a:hover{
     margin:auto;
 }
 
-.abtBox{
+.abtBox1{
  float: left;
  background-color:rgba(245,244,244,.7);
  width: 40%;
- margin-left:3%;
+ margin-left:5%;
  margin-right:3%; 
  padding: 1%;
   
 }
-
+.abtBox2{
+ float: left;
+ background-color:rgba(245,244,244,.7);
+ width: 40%;
+ margin-left:3%;
+ margin-right:5%; 
+ padding: 1%;
+}
 .lngBox{
     clear:left;
-    width:94%;
+    width:88%;
     background-color:rgba(245,244,244,.7);
-    margin-left: 3%;
-    margin-right:3%;
+    margin:auto;
     padding:1%;
 }
 
