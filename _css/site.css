@@ -110,14 +110,7 @@ nav a:hover{
   margin:0;
 }
 
-.about h1{
-    font-family: 'Pacifico', cursive;
-    color:#bb6026;
-    text-decoration: none;
-    font-size: 2em;
-    margin:auto;
-  
-}
+
 
 .about p{
     font-size:1em;
@@ -172,7 +165,7 @@ nav a:hover{
 }
 #family2{
     display:block;
-    width:35%;
+    width:37%;
     float:right;
     margin-right:5%;
     margin-left:1.5%
