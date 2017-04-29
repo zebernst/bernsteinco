@@ -108,6 +108,7 @@ nav a:hover{
   background-color: #54250f ;
   font-family: 'Raleway', sans-serif;  
   margin:0;
+  display:inline-block;
 }
 
 .about p{
@@ -167,6 +168,7 @@ nav a:hover{
     float:right;
     margin-right:5%;
     margin-left:1.5%
+    margin-top:1em;
 }
 
 .abtBox3{
@@ -181,7 +183,7 @@ nav a:hover{
 }
 
 .abtBox4{
-    width: 50%;
+    width: 48%;
     margin-right:1.5%;
     background-color:rgba(245,244,244,.7);
     margin-bottom:1em;
@@ -192,7 +194,7 @@ nav a:hover{
     clear:left;
 }
 .abtBox5{
-    width: 50%;
+    width: 48%;
     margin-right:1.5%;
     background-color:rgba(245,244,244,.7);
     margin-bottom:1em;
