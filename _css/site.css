@@ -111,10 +111,6 @@ nav a:hover{
   display:inline-block;
 }
 
-.about p{
-    font-size:1em;
-}
-
 .about h1{
     font-family: 'Pacifico', cursive;
     color:white;
@@ -123,6 +119,12 @@ nav a:hover{
     padding-left:.75%;
     margin-bottom:.1em;
 }
+
+.about p{
+    font-size:1em;
+}
+
+
 
 .about img{
     display:block;
