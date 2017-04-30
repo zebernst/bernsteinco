@@ -255,6 +255,25 @@ nav a:hover{
     font-style: italic;
 }
 
+.actLocation{
+     border-top: 2px solid white;
+  background-color: #54250f ;
+  font-family: 'Raleway', sans-serif;  
+  margin:0;
+}
+
+.location{
+    text-align:center;
+}
+
+.hours {
+    text-align:center;
+}
+
+.reserveNow{
+    text-align:center;
+}
+
 #footer{
     background-color: black;
     border-top: 2.5px solid white;
