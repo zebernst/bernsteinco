@@ -9,11 +9,11 @@
     Burlington, VT 05401
     </a></p>
     <!-- TODO: put fontawesome phone icon in before telephone number -->
-    <p><strong>Phone: </strong> <a class="phone" href="tel:802-576-8492">(802)-576-8492</a></p>
+        <p><strong><u>Phone:</u> </strong> <a class="phone" href="tel:802-576-8492">(802)-576-8492</a></p>
 <div class="hours">
     <h2>Hours</h2>
-    <p><strong>Monday-Friday: </strong> <a> 11am - 11pm</a></p>
-    <p><strong>Saturday-Sunday: </strong><a>10am-11pm</a></p>
+    <p><strong><u>Monday-Friday:</u> </strong> <a> 11am - 11pm</a></p>
+    <p><strong><u>Saturday-Sunday: </u></strong><a>10am-11pm</a></p>
     </div>
     </div>
     </div>
