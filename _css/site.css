@@ -261,13 +261,39 @@ nav a:hover{
   font-family: 'Raleway', sans-serif;  
   margin:0;
 }
-
+.actLocation a:link{
+    text-decoration: none;
+    color:white;    
+}
+.actLocation a:visited{
+    text-decoration: none;
+    color:white;
+}
+.actLocation a:hover{
+    color:#bb6026   
+}
 .location{
     text-align:center;
+}
+.location h1{
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    color:#bb6026;
+    text-decoration: underline;
+}
+.location p{
+    font-size:1em;
 }
 
 .hours {
     text-align:center;
+}
+
+.hours h2{
+    font-size:1.5em;
+}
+.hours p{
+    font-size:1em;
 }
 
 .reserveNow{
