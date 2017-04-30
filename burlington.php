@@ -12,8 +12,8 @@
         <p><strong><u>Phone:</u> </strong> <a class="phone" href="tel:802-576-8492">(802)-576-8492</a></p>
 <div class="hours">
     <h2>Hours</h2>
-    <p><strong><u>Monday-Friday:</u> </strong> <a> 11am - 11pm</a></p>
-    <p><strong><u>Saturday-Sunday: </u></strong><a>10am-11pm</a></p>
+    <p><strong><u>Monday-Friday:</u> </strong> <style color="white"> 11am - 11pm</style></p>
+    <p><strong><u>Saturday-Sunday: </u></strong><style color="white">10am-11pm</style></p>
     </div>
     </div>
     </div>
