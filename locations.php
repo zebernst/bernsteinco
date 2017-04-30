@@ -8,7 +8,7 @@
         <area shape="rectangle" 
               alt="Burlington" 
               coords="845,124,885,165" 
-              href="burlington.php>
+              href="burlington.php">
 
         <area shape="rectangle" 
               alt="Boston " 
