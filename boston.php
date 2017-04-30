@@ -1,5 +1,6 @@
 <?php include "_includes/top.php";?>
 <?php include "_includes/nav.php";?>
+<article class="actLocation">
 <div class="location">
     <h1>Boston, Massachusetts</h1>
     <p><a target="_blank" class="address" href="//www.google.com/maps/place/75+Arlington+St,+Boston,+MA+02116">
@@ -18,4 +19,5 @@
         <a href="reservations.php">Reserve now!</a>
     </p>
 </div>
+</article>
 <?php include "_includes/footer.php";?>
