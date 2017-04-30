@@ -12,7 +12,7 @@
         <p><strong><u>Phone:</u> </strong> <a class="phone" href="tel:802-576-8492">(802)-576-8492</a></p>
 <div class="hours">
     <h2>Hours</h2>
-    <p><strong><u>Monday-Friday:</u> 11am - 11p</strong> m</p>
+    <p><strong><u>Monday-Friday:</u> 11am - 11pm</strong></p>
     <p><strong><u>Saturday-Sunday: </u>10am-11pm</strong></p>
     </div>
     </div>
