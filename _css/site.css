@@ -248,8 +248,11 @@ nav a:hover{
 
 .locations figcaption{   
    color: #bb6026;
-    margin-top: .5em;
+    margin-top: .2em;
     font-size: 1.5em;
+    margin-bottom:.5em;
+    font-weight:bolder;
+    font-style: italic;
 }
 
 #footer{
