@@ -4,6 +4,7 @@
 <article class="locations">
     <h1>Our Locations</h1>
     <figure id="map">
+         <figcaption>Click one of our three locations for more information!</figcaption>
         <img src="_media/map.png" alt="Clickable map of restaurant locations" usemap="#map">
         <map name="map">
             <area shape="rectangle" 
@@ -21,7 +22,6 @@
               coords="603,216,657,267" 
               href="chicago.php ">       
         </map>
-        <figcaption>Click one of our three locations for more information!</figcaption>
     </figure>
     <p id="extra"></br></p>
 
