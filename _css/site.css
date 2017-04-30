@@ -260,8 +260,12 @@ nav a:hover{
   background-color: #54250f ;
   font-family: 'Raleway', sans-serif;  
   margin:0;
-    display:grid;
+    display:flow-root;
 }
+.abtLocation a{
+    color:white;
+}
+
 .actLocation a:link{
     text-decoration: none;
     color:white;    
@@ -310,6 +314,7 @@ nav a:hover{
     font-size:2em;
     width:17%;
    margin:auto;
+   padding:.25em;
     
 }
 
