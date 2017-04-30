@@ -4,7 +4,7 @@
 <div class="location">
     <h1>Burlington, Vermont</h1>
     <div class="locBox">
-        <p><a target="_blank" class="address" href="//www.google.com/maps/place/7+Church+St,+Burlington,+VT+05401">
+        <p><i class="fa fa-home" aria-hidden="true"></i><a target="_blank" class="address" href="//www.google.com/maps/place/7+Church+St,+Burlington,+VT+05401">
     7 Church St.<br/>
     Burlington, VT 05401
     </a></p>
