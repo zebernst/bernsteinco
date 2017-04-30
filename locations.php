@@ -1,5 +1,6 @@
 <?php include "_includes/top.php";?>
 <?php include "_includes/nav.php"; ?>
+
 <article class="locations">
 <h1>Our Locations</h1>
 <figure id="map">
@@ -22,5 +23,5 @@
     </map>
     <figcaption>Click one of our three locations for more information!</figcaption>
 </figure>
-                                 </article>
-<?php include "_includes/footer.php ";?>
+</article>
+<?php include "_includes/footer.php"; ?>
