@@ -3,21 +3,24 @@
 <article class="actLocation">
 <div class="location">
     <h1>Boston, Massachusetts</h1>
+    <div class="locBox">
     <p><a target="_blank" class="address" href="//www.google.com/maps/place/75+Arlington+St,+Boston,+MA+02116">
     75 Arlington St<br/>
     Boston, MA 02116
     </a></p>
-    <p>Phone: <a class="phone" href="tel:617-474-8833">(617)-474-8833</a></p>
-</div>
-<div class="hours">
+        <p><strong><u>Phone:</u></strong> <a class="phone" href="tel:617-474-8833">(617)-474-8833</a></p>
+        <div class="hours">
     <h2>Hours</h2>
-    <p>Monday-Friday: 11am - 11pm</p>
-    <p>Saturday-Sunday: 10am-11pm</p>
+            <p><strong><u>Monday-Friday:</u></strong><style color="white"> 11am - 11pm</style></p>
+            <p><strong><u>Saturday-Sunday:</u></strong> <style color="white"> 10am-11pm</style></p>
 </div>
+</div>
+    </div>
 <div class="reserveNow">
     <p>
         <a href="reservations.php">Reserve now!</a>
     </p>
 </div>
+     <p id="extra"> </br> </p>
 </article>
 <?php include "_includes/footer.php";?>
