@@ -2,7 +2,7 @@
 <?php include "_includes/nav.php"; ?>
 <h1 id="locationPage">Our Locations</h1>
 <figure id="map">
-    <img src="map.png" alt="Clickable map of restaurant locations" usemap="#map">
+    <img src="_media/map.png" alt="Clickable map of restaurant locations" usemap="#map">
     <map name="map">
         <area shape="rectangle" alt="Burlington" coords="1693,252,1767,335" href="burlington.php>
 
