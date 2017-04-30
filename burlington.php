@@ -22,6 +22,6 @@
         <a href="reservations.php">Reserve now!</a>
     </p>
 </div>
-    <p id="extra"> </br> </p>
+    <p id="extra"> <br/> </p>
 </article>
 <?php include "_includes/footer.php";?>
