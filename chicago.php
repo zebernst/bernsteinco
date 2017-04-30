@@ -8,7 +8,7 @@
     218 W Kinzie St<br/>
     Chicago, IL 60654
     </a></p>
-         <p><strong><u>Phone:</u></strong> <a class="phone" href="tel:312-956-0053">(312)-956-0053</a></p>
+         <p><i class="fa fa-phone" aria-hidden="true"></i><strong><u>Phone:</u></strong> <a class="phone" href="tel:312-956-0053">(312)-956-0053</a></p>
 <div class="hours">
     <h2>Hours</h2>
     <p><strong><u>Monday-Friday:</u> 11am - 11pm</strong></p>
