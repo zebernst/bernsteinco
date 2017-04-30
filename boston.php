@@ -8,7 +8,7 @@
     75 Arlington St<br/>
     Boston, MA 02116
     </a></p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i><strong><u>Phone:</u></strong> <a class="phone" href="tel:617-474-8833">(617)-474-8833</a></p>
+        <p><i class="fa fa-phone" aria-hidden="true"></i><a class="phone" href="tel:617-474-8833">(617)-474-8833</a></p>
         <div class="hours">
     <h2>Hours</h2>
             <p><strong><u>Monday-Friday:</u> 11am - 11pm</strong></p>
