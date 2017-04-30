@@ -260,6 +260,7 @@ nav a:hover{
   background-color: #54250f ;
   font-family: 'Raleway', sans-serif;  
   margin:0;
+    display:grid'
 }
 .actLocation a:link{
     text-decoration: none;
@@ -284,6 +285,12 @@ nav a:hover{
 .location p{
     font-size:1em;
 }
+.locBox{
+    background-color: rgba(245,244,244,1);
+    width:30%;
+    margin:auto;
+    margin-bottom:1em;
+}
 
 .hours {
     text-align:center;
@@ -298,6 +305,10 @@ nav a:hover{
 
 .reserveNow{
     text-align:center;
+    background-color:black;
+    font-size:2em;
+    width:17%;
+    
 }
 
 #footer{
