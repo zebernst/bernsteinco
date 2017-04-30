@@ -235,17 +235,21 @@ nav a:hover{
     text-decoration: none;
     font-size: 2em;
     padding-left:.75%;
+    margin-bottom:.1em;
     
 }  
 
 .locations figure{
     text-align: center;
     background-color:rgba(245,244,244,.7);
+    margin-bottom: 0;
+    padding-top: .5em;
 }
 
-.locations figcaption{
-    color:white;
-    margin-top:1em;
+.locations figcaption{   
+   color: #bb6026;
+    margin-top: .5em;
+    font-size: 1.5em;
 }
 
 #footer{
