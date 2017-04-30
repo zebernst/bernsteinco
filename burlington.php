@@ -12,8 +12,8 @@
     <p><strong>Phone: </strong> <a class="phone" href="tel:802-576-8492">(802)-576-8492</a></p>
 <div class="hours">
     <h2>Hours</h2>
-    <p><strong>Monday-Friday: </strong> 11am - 11pm</p>
-    <p><strong>Saturday-Sunday: </strong>10am-11pm</p>
+    <p><strong>Monday-Friday: </strong> <a> 11am - 11pm</a></p>
+    <p><strong>Saturday-Sunday: </strong><a>10am-11pm</a></p>
     </div>
     </div>
     </div>
@@ -22,6 +22,6 @@
         <a href="reservations.php">Reserve now!</a>
     </p>
 </div>
-    <p id="extra"> </p>
+    <p id="extra"> </br> </p>
 </article>
 <?php include "_includes/footer.php";?>
