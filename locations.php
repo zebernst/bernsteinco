@@ -23,5 +23,7 @@
         </map>
         <figcaption>Click one of our three locations for more information!</figcaption>
     </figure>
+    <p></br></p>
+<p></br></p>
 </article>
 <?php include "_includes/footer.php"; ?>
