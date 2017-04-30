@@ -28,6 +28,6 @@
         <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion</li>
     </ul>
     </div>
-   <p id="extra"> </br> </p>
+   <p id="extra"> <br/> </p>
 </article>
 <?php include "_includes/footer.php";?>
