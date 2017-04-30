@@ -1,5 +1,6 @@
 <?php include "_includes/top.php";?>
 <?php include "_includes/nav.php";?>
+<article class="actLocation">
 <div class="location">
     <h1>Chicago, Illinois</h1>
     <p><a target="_blank" class="address" href="//www.google.com/maps/place/218+W+Kinzie+St,+Chicago,+IL+60654">
@@ -18,4 +19,5 @@
         <a href="reservations.php">Reserve now!</a>
     </p>
 </div>
+</article>
 <?php include "_includes/footer.php";?>
