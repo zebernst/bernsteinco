@@ -4,7 +4,7 @@
 <div class="location">
     <h1>Chicago, Illinois</h1>
      <div class="locBox">
-    <p><a target="_blank" class="address" href="//www.google.com/maps/place/218+W+Kinzie+St,+Chicago,+IL+60654">
+    <p><i class="fa fa-home" aria-hidden="true"></i><a target="_blank" class="address" href="//www.google.com/maps/place/218+W+Kinzie+St,+Chicago,+IL+60654">
     218 W Kinzie St<br/>
     Chicago, IL 60654
     </a></p>
