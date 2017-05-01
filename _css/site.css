@@ -326,13 +326,13 @@ nav a:hover{
 }
 #footimg{
     text-align:center;
-    padding:1em;
+    padding-top:.5em;
     margin:auto;
 }
 footer p{
     color:gainsboro;
     font-family: 'Open Sans', sans-serif;
-    text-align: right;
+    text-align: center;
     font-size: .75em;
     padding-right: 2em;
 }
