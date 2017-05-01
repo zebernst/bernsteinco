@@ -111,8 +111,24 @@ nav a:hover{
   display:inline-block;
 }
 
+.about h1{
+    font-family: 'Raleway', cursive;
+    color:white;
+    text-decoration: none;
+    font-size: 2em;
+    padding-left:.75%;
+    margin-bottom:.1em;
+}
+.about h2{
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+    margin-top:.1em;
+}
+
 .about p{
+    font-family: 'Open Sans', cursive;
     font-size:1em;
+    margin-top:-1em;
 }
 
 .about img{
@@ -129,7 +145,7 @@ nav a:hover{
  padding: 1%;
  margin-bottom:1em;  
 }
-
+ 
 .abtBox2{
  float: left;
  background-color:rgba(245,244,244,.7);
@@ -202,6 +218,103 @@ nav a:hover{
     margin-left:5%;
     padding: 1%;
     float:left;
+    
+}
+
+.locations{
+  border-top: 2px solid white;
+  background-color: #54250f ;
+  font-family: 'Raleway', sans-serif;  
+  margin:0;
+  
+}
+
+.locations h1{
+    font-family: 'Raleway', cursive;
+    color:white;
+    text-decoration: none;
+    font-size: 2em;
+    padding-left:.75%;
+    margin-bottom:.1em;
+    
+}  
+
+.locations figure{
+    text-align: center;
+    background-color:rgba(245,244,244,.7);
+    margin-bottom: 0;
+    padding-top: .5em;
+}
+
+.locations figcaption{   
+   color: #bb6026;
+    margin-top: .2em;
+    font-size: 1.5em;
+    margin-bottom:.5em;
+    font-weight:bolder;
+    font-style: italic;
+}
+
+.actLocation{
+     border-top: 2px solid white;
+  background-color: #54250f ;
+  font-family: 'Raleway', sans-serif;  
+  margin:0;
+    display:flow-root;
+}
+.abtLocation a{
+    color:white;
+}
+
+.actLocation a:link{
+    text-decoration: none;
+    color:white;    
+}
+.actLocation a:visited{
+    text-decoration: none;
+    color:white;
+}
+.actLocation a:hover{
+    color:#bb6026   
+}
+.location{
+    text-align:center;
+}
+.location h1{
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    color:#bb6026;
+    text-decoration: underline;
+}
+.location p{
+    font-size:1em;
+}
+.locBox{
+    background-color: darkgrey;
+    width:30%;
+    margin:auto;
+    margin-bottom:1em;
+    padding:1em;
+}
+
+.hours {
+    text-align:center;
+}
+
+.hours h2{
+    font-size:1.5em;
+}
+.hours p{
+    font-size:1em;
+}
+
+.reserveNow{
+    text-align:center;
+    background-color:black;
+    font-size:2em;
+    width:17%;
+   margin:auto;
+   padding:.25em;
     
 }
 
