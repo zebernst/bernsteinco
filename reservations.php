@@ -338,6 +338,5 @@ if (isset($_POST["btnSubmit"])) {
 		<?php
 	} // end body submit
 	?>
-\
 </article>
 <?php include "_includes/footer.php ";?>
