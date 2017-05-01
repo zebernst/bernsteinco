@@ -13,7 +13,7 @@
         $path_parts = pathinfo($phpSelf);
     ?>
 	<head>
-		<title>Bernstein &amp; Co. | <?php print $path_parts['filename']; ?></title>
+		<title>Bernstein &amp; Co. | <?php print ucfirst($path_parts['filename']); ?></title>
 
 		<meta charset="utf-8">
 		<meta name="author" content="Zach Bernstein, Maria Kissel, Liv Hurd">
@@ -39,7 +39,7 @@
 		?>
 	</head>
 	<!-- begin body -->
-    <?php print '    <body id="' . ucfirst($path_parts['filename']) . '">'; ?>
+    <?php print '    <body id="' . $path_parts['filename'] . '">'; ?>
 		<header>
 			<p> Bernstein &amp; Co. </p>
 		</header>
