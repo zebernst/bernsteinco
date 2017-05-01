@@ -1,5 +1,6 @@
 body {
     margin:0;
+    background-color: black;
 }
 
 header {
@@ -326,7 +327,7 @@ nav a:hover{
 }
 #footimg{
     text-align:center;
-    padding-top:.5em;
+    padding-top:.75em;
     margin:auto;
 }
 footer p{
