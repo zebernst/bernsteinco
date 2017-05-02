@@ -8,6 +8,11 @@ function verifyAlphaNum ($testString) {
 	return (preg_match ("/^([[:alnum:]]|-|\.| |')+$/", $testString));
 }
 
+function verifyTimeStamp ($testString) {
+	// Check for letters, numbers and dash, period, space and single quote only. 
+	return (preg_match ("/^([[:alnum:]]|-|\:)+$/", $testString));
+}
+
 function verifyEmail ($testString) {
 	// Check for a valid email address http://www.php.net/manual/en/filter.examples.validation.php
 	return filter_var($testString, FILTER_VALIDATE_EMAIL);

@@ -33,8 +33,8 @@
         require_once('_lib/security.php');
         
         if ($path_parts['filename'] == "reservations") {
-            include "lib/validation-functions.php";
-            include "lib/mail-message.php";
+            include "_lib/validation-functions.php";
+            include "_lib/mail-message.php";
         }
 		?>
 	</head>

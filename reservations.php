@@ -9,7 +9,7 @@
 $debug = false;
 if (isset($_GET["debug"])) $debug = true;
 
-if($debug) {
+if ($debug) {
 	print '<p>_POST Array:</p><pre>';
 	print_r($_POST);
 	print '</pre>';
@@ -88,7 +88,7 @@ $mailed = false;
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // %%%% Process Form Submission %%%%
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-if (isset($_POST["btnSubmit"])) {
+if (isset($_POST["btnReserve"])) {
 
 	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	// Security
@@ -124,7 +124,7 @@ if (isset($_POST["btnSubmit"])) {
     $dataRecord[] = $location;
 
     // radio buttons
-    $specOccasion = htmlentities($_POST["radOccasion"], ENT_QUOTES, "UTF-8");
+    $specOccasion = htmlentities($_POST["radSpecOccasion"], ENT_QUOTES, "UTF-8");
     $dataRecord[] = $specOccasion;
 
     // check boxes
@@ -191,22 +191,22 @@ if (isset($_POST["btnSubmit"])) {
     if ($resDateTime == "") {
     	$errorMsg[] = "Please enter a date and time for your reservation.";
     	$resDateTimeERROR = true;
-    } elseif (!verifyAlphaNum($resDateTime)) {
+    } elseif (!verifyTimeStamp($resDateTime)) {
     	$errorMsg[] = "The date and time you entered are not in the correct format.";
     	$resDateTimeERROR = true;
     }
 
     // dropdown
-    if ($location == "" or $location == "Select a location...") {
+    if ($location == "") {
     	$errorMsg[] = "Please select a restaurant location.";
     	$locationERROR = true;
-    } elseif ($location != "Chicago" and $location != "Burlington" and $location != "Boston") {
+    } elseif ($location != "Chicago" AND $location != "Burlington" AND $location != "Boston") {
     	$errorMsg[] = "Please select a valid restaurant location.";
     	$locationERROR = true;
     }
 
     // radio buttons
-    if ($specOccasion != "None" and $specOccasion != "Birthday" and $specOccasion != "Graduation" and $specOccasion != "Anniversary" and $specOccasion != "Wedding" and $specOccasion != "Other") {
+    if ($specOccasion != "None" AND $specOccasion != "Birthday" AND $specOccasion != "Graduation" AND $specOccasion != "Anniversary" AND $specOccasion != "Wedding" AND $specOccasion != "Other") {
     	$errorMsg[] = "Please indicate whether your party is celebrating a special occasion or not.";
     	$specOccasionERROR = true;
     }
@@ -283,7 +283,7 @@ if (isset($_POST["btnSubmit"])) {
 	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	// If first time on page OR errors exist, display form
 
-	if (isset($_POST["btnSubmit"]) and empty($errorMsg)) { // closing if brace marked with "end body submit"
+	if (isset($_POST["btnReserve"]) and empty($errorMsg)) { // closing if brace marked with "end body submit"
 		print '<h2>Thank you for reserving a table with us.</h2>';
 
 		if ($mailed) {
@@ -325,17 +325,18 @@ if (isset($_POST["btnSubmit"])) {
 					<legend> Reservation Information </legend>
 					<p>
 						<label class="required" for="lstLocation"> Location </label>
-						<select id="lstLocation"
+						<select 
+                            id="lstLocation"
+                            name="lstLocation"
 							tabindex="100">
 							<option <?php if ($location=="Boston") print "selected"; ?>
-								value="Boston"> Boston </option>
+								value="Boston">Boston</option>
 							<option <?php if ($location=="Burlington") print "selected"; ?>
-								value="Burlington"> Burlington </option>
+								value="Burlington">Burlington</option>
 							<option <?php if ($location=="Chicago") print "selected"; ?>
-								value="Chicago"> Chicago </option>
+								value="Chicago">Chicago</option>
 						</select>
-							
-					   </p>
+				    </p>
 					<p>
 						<label class="required" for="dtsReservation"> Date &amp; Time</label>
 							<input type="datetime-local"
@@ -343,14 +344,15 @@ if (isset($_POST["btnSubmit"])) {
 							       name="dtsReservation"
 							       onfocus="this.select()"
 							       tabindex="150"
-							       value="">
+							       value=""
+                                   placeholder="YYYY-MM-DDTHH:MM">
 					</p>
 					
 					<p>
-						<label class="required text-field" for="txtpartySize">Party Size</label>
+						<label class="required text-field" for="txtPartySize">Party Size</label>
             						<input 
-                						id="txtpartySize"
-                						name="txtpartySize"
+                						id="txtPartySize"
+                						name="txtPartySize"
                 						onfocus="this.select()"
                 						tabindex="200"
                 						type="text"
@@ -384,7 +386,7 @@ if (isset($_POST["btnSubmit"])) {
                            placeholder="Enter your last name"
                            tabindex="200"
                            type="text"
-                           value="<?php print $LastName; ?>"
+                           value="<?php print $lastName; ?>"
                            >	
 					</p>
 					
@@ -421,49 +423,49 @@ if (isset($_POST["btnSubmit"])) {
 				</section>
 				<section>
 					<h2> Additional Information </h2>
-					<fieldset class="radio" <?php if ($specOccasionERROR) print ' mistake'; ?>>
-                    <legend>Please indicate if you are celebrating a special occasion.</legend>
+					<fieldset class="radio <?php if ($specOccasionERROR) print 'mistake'; ?>">
+                    <legend>Are you celebrating a special occasion with us?</legend>
                     <p>
-                        <label class ="radio-field">
-                            <input type ="radio"
-                                   id="radSpecOcassionAnniversary"
-                                   name="radSpecOcassion"
+                        <label class="radio-field">
+                            <input type="radio"
+                                   id="radSpecOccasionAnniversary"
+                                   name="radSpecOccasion"
                                    value="Anniversary"
                                    tabindex="750"
-                                   <?php if ($specOcassion == "Anniversary") echo ' checked="checked" '; ?>>
+                                   <?php if ($specOcassion == "Anniversary") echo 'checked="checked" '; ?>>
                         Anniversary</label>
                     </p>
                     
                     <p>
-                    <label class ="radio-field">
-                            <input type ="radio"
-                                   id="radSpecOcassionBirthday"
-                                   name="radSpecOcassion"
+                    <label class="radio-field">
+                            <input type="radio"
+                                   id="radSpecOccasionBirthday"
+                                   name="radSpecOccasion"
                                    value="Birthday"
                                    tabindex="770"
-                                   <?php if ($specOcassion == "Birthday") echo ' checked="checked" '; ?>>
+                                   <?php if ($specOcassion == "Birthday") echo 'Checked="checked" '; ?>>
                         Birthday</label>    
                     </p>
                     
                     <p>
-                    <label class ="radio-field">
-                            <input type ="radio"
-                                   id="radSpecOcassionGraduation"
-                                   name="radSpecOcassion"
+                    <label class="radio-field">
+                            <input type="radio"
+                                   id="radSpecOccasionGraduation"
+                                   name="radSpecOccasion"
                                    value="Graduation"
                                    tabindex="790"
-                                   <?php if ($specOcassion == "Graduation") echo ' checked="checked" '; ?>>
+                                   <?php if ($specOcassion == "Graduation") echo 'checked="checked" '; ?>>
                         Graduation</label>    
                     </p>
                     
                     <p>
-                    <label class ="radio-field">
-                            <input type ="radio"
-                                   id="radSpecOcassionNone"
-                                   name="radSpecOcassion"
+                    <label class="radio-field">
+                            <input type="radio"
+                                   id="radSpecOccasionNone"
+                                   name="radSpecOccasion"
                                    value="None"
                                    tabindex="810"
-                                   <?php if ($specOcassion == "None") echo ' checked="checked" '; ?>>
+                                   <?php if ($specOcassion == "None") echo 'checked="checked" '; ?>>
                         None</label>    
                     </p>
                     
@@ -509,7 +511,7 @@ if (isset($_POST["btnSubmit"])) {
 				
 	<p>
         	<label class="required" for="txtComments">Comments </label>
-                    <textarea <?php if ($commentsERROR) print 'class="mistake"'; ?>
+                    <textarea
                         id="txtComments"
                         name="txtComments"
                         onfocus="this.select()"
