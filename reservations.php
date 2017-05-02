@@ -320,11 +320,11 @@ if (isset($_POST["btnReserve"])) {
 
         ?>
         <form action="<?php print $phpSelf; ?>" id="frmReserve" method="post">
-            <h1> Reservations </h1>
+            <h1>Reservations</h1>
             <fieldset class="reserveInfo <?php if ($resDateTimeERROR or $locationERROR or $partySizeERROR) print 'mistake'; ?>">
-                <legend> Reservation Information </legend>
+                <legend>Reservation Information</legend>
                 <p>
-                    <label class="required" for="lstLocation"> Location </label>
+                    <label class="required" for="lstLocation">Location</label>
                     <select 
                         id="lstLocation"
                         name="lstLocation"
@@ -338,7 +338,7 @@ if (isset($_POST["btnReserve"])) {
                     </select>
                 </p>
                 <p>
-                    <label class="required" for="dtsReservation"> Date &amp; Time</label>
+                    <label class="required" for="dtsReservation">Date &amp; Time</label>
                     <input 
                         type="datetime-local"
                         id="dtsReservation"
@@ -410,7 +410,7 @@ if (isset($_POST["btnReserve"])) {
                 </p>
             </section>
             <section>
-                <h2> Additional Information </h2>
+                <h2>Additional Information</h2>
                 <fieldset class="radio <?php if ($specOccasionERROR) print 'mistake'; ?>">
                     <legend>Are you celebrating a special occasion with us?</legend>
                     <p>
