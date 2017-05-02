@@ -522,7 +522,7 @@ if (isset($_POST["btnSubmit"])) {
     
     <fieldset class="buttons">
         <legend></legend>
-            <input class="button" id="btnReserve" name="btnReserve" tabindex="900" type="reserve" value="Reserve now">
+            <input class="button" id="btnReserve" name="btnReserve" tabindex="950" type="submit" value="Reserve now">
     </fieldset>
 
 				<!-- form here 
