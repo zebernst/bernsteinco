@@ -419,16 +419,103 @@ if (isset($_POST["btnSubmit"])) {
 			
 					</p>
 				</section>
+				<section>
+					<h2> Additional Information </h2>
+					<fieldset class="radio" <?php if ($specOccasionERROR) print ' mistake'; ?>>
+                    <legend>Please indicate if you are celebrating a special occasion.</legend>
+                    <p>
+                        <label class ="radio-field">
+                            <input type ="radio"
+                                   id="radSpecOcassionAnniversary"
+                                   name="radSpecOcassion"
+                                   value="Anniversary"
+                                   tabindex="750"
+                                   <?php if ($specOcassion == "Anniversary") echo ' checked="checked" '; ?>>
+                        Anniversary</label>
+                    </p>
+                    
+                    <p>
+                    <label class ="radio-field">
+                            <input type ="radio"
+                                   id="radSpecOcassionBirthday"
+                                   name="radSpecOcassion"
+                                   value="Birthday"
+                                   tabindex="770"
+                                   <?php if ($specOcassion == "Birthday") echo ' checked="checked" '; ?>>
+                        Birthday</label>    
+                    </p>
+                    
+                    <p>
+                    <label class ="radio-field">
+                            <input type ="radio"
+                                   id="radSpecOcassionGraduation"
+                                   name="radSpecOcassion"
+                                   value="Graduation"
+                                   tabindex="790"
+                                   <?php if ($specOcassion == "Graduation") echo ' checked="checked" '; ?>>
+                        Graduation</label>    
+                    </p>
+                    
+                    <p>
+                    <label class ="radio-field">
+                            <input type ="radio"
+                                   id="radSpecOcassionNone"
+                                   name="radSpecOcassion"
+                                   value="None"
+                                   tabindex="810"
+                                   <?php if ($specOcassion == "None") echo ' checked="checked" '; ?>>
+                        None</label>    
+                    </p>
+                    
+                </fieldset>
+					<fieldset class="checkbox <?php if ($ageERROR) print ' mistake'; ?>">
+                    <legend>Please indicate the age groups in your party (choose at least one and check all that may apply):</legend>
+                    
+                    <p>
+                        <label class="check-field">
+                            <input <?php if ($ageAdult) print " checked "; ?>
+                                id="chkAdult"
+                                name="chkAdult"
+                                tabindex="830"
+                                type="checkbox"
+                                value="Adult"> Adult</label>
+                    </p>
+                    
+                     <p>
+                        <label class="check-field">
+                            <input <?php if ($ageChild) print " checked "; ?>
+                                id="chkChild"
+                                name="chkChild"
+                                tabindex="850"
+                                type="checkbox"
+                                value="Child"> Child</label>
+                    </p>
+                    
+                    <p>
+                        <label class="check-field">
+                            <input <?php if ($ageInfant) print " checked "; ?>
+                                id="chkInfant"
+                                name="chkInfant"
+                                tabindex="870"
+                                type="checkbox"
+                                value="Infant">Infant</label>
+                    </p>
+                </fieldset> 
+    
+					
+					
+						
+					
 				
 	<p>
-        	<label for="txtAddInfo">Additional information we should know: </label>
-        	<textarea 
-            		id="txtAddInfo"
-            		name="txtAddInfo"
-            		onfocus="this.select()"
-            		tabindex="700"><?php print $comments; ?>
-        	</textarea>
+        	<label class="required" for="txtComments">Comments </label>
+                    <textarea <?php if ($commentsERROR) print 'class="mistake"'; ?>
+                        id="txtComments"
+                        name="txtComments"
+                        onfocus="this.select()"
+                        tabindex="900"><?php print $comments; ?> </textarea>
    	</p>
+				</section>
     
     	
     
