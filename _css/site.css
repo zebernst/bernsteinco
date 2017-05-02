@@ -221,6 +221,12 @@ nav a:hover {
     padding: 1%;
     float: left;
 }
+.menu {
+     border-top: 2px solid white;
+    background-color: #54250f;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
 
 .locations {
     border-top: 2px solid white;
