@@ -330,6 +330,14 @@ nav a:hover {
     padding: .25em;
 }
 
+.reservations{
+    border-top: 2px solid white;
+    background-color: #54250f;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+    
+
 #footer {
     background-color: black;
     border-top: 2.5px solid white;
