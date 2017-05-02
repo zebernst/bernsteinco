@@ -1,0 +1,133 @@
+{
+  "lunch": [
+    {
+      "description": "Tomato, crumbled bleu cheese and local hand-chopped field greens",
+      "dish": "Pepper sirloin salad",
+      "price": "$12.99"
+    },
+    {
+      "description": "Hand-breaded chicken tenders on our fresh field greens with aged cheddar, local diced tomatoes, cucumbers, and red onion",
+      "dish": "Crispy buttermilk chicken tenders salad",
+      "price": "$14.99"
+    },
+    {
+      "description": "Fresh, crisp romaine lettuce with tasty parmesan, sliced cherry tomatoes, grated parmesan cheese, housemade croutons, and creamy caesar dressing. Add chicken or shrimp for an additional charge.",
+      "dish": "Caesar salad",
+      "price": "$13.99"
+    },
+    {
+      "description": "Fresh mixed greens topped with generous helpings of green and yellow peppers, cucumbers, shaved carrots, red onion, cherry tomatoes, chickpea, and sliced hard-boiled egg. Drizzled with your choice of dressing",
+      "dish": "House salad",
+      "price": "$15.99"
+    },
+    {
+      "description": "Fresh arugula, strawberries, grapes, mandarin oranges, oven-roasted pecans, red onion, feta, drizzled with our homemade raspberry vinaigrette. Local ingredients as available.",
+      "dish": "Grilled chicken and strawberry salad",
+      "price": "$15.99"
+    },
+    {
+      "description": "A Bernstein & Co. lunch classic. Burger made to order, served on toasted bun, packed with flavor. Served with fries",
+      "dish": "Third-pound steakhouse burger",
+      "price": "$12.99"
+    },
+    {
+      "description": "Half-pound burger on a toasted bun packed with aged cheddar, spinach, hand-battered onion rings, and our special bacon mayo",
+      "dish": "Gourmet burger",
+      "price": "$13.99"
+    },
+    {
+      "description": "Grilled chicken breast, avocado, tomato, aged cheddar, and ranch. A customer favorite! Served with fries",
+      "dish": "Grilled chicken and avocado sandwich",
+      "price": "$13.99"
+    }
+  ],
+  "dinner": [
+    {
+      "description": "House made chicken salad with cranberries, slivered almonds, halved grapes, and celery. Served on toasted sourdough bread",
+      "dish": "Classic chicken salad sandwich",
+      "price": "$11.99"
+    },
+    {
+      "description": "A high-quality steak on a warm ciabatta roll with crispy applewood smoked bacon, aged cheddar, and bacon mayo",
+      "dish": "Steak and bacon cheddar melt",
+      "price": "$12.99"
+    },
+    {
+      "description": "Roast beef sandwich on rye bread with Havarti cheese, ranch, and green leaf lettuce",
+      "dish": "Chilled roast beef sandwich",
+      "price": "$12.99"
+    },
+    {
+      "description": "Served on a ciabatta roll and topped with onions, mushrooms, and Swiss cheese",
+      "dish": "Shaved prime rib saniwich",
+      "price": "$13.99"
+    },
+    {
+      "description": "Grilled salmon drizzled in lemon and served between two slices of toasted sourdough bread, with our tangy, house made mayo.",
+      "dish": "Salmon sandwich",
+      "price": "$15.99"
+    },
+    {
+      "description": "Served with artichoke hearts, sauteed mushrooms, and roasted red peppers and tomatoes",
+      "dish": "Grilled chicken plate",
+      "price": "$15.99"
+    },
+    {
+      "description": "Premier-quality chicken breast coated in tasty parmesan. Served with your choice of rice pilaf or couscous and roasted vegetables.",
+      "dish": "Parmesan crusted chicken",
+      "price": "$16.99"
+    },
+    {
+      "description": "Served with smoky tomato butter and your choice of rice pilaf or couscous",
+      "dish": "Grilled shrimp plate",
+      "price": "$16.99"
+    }
+  ],
+  "sides": [
+    {
+      "description": "Our famous recipe. Made with local red bliss potatoes",
+      "dish": "Potato salad",
+      "price": "$6.99"
+    },
+    {
+      "description": "Featuring a flavorful four cheese blend",
+      "dish": "Mac 'n Cheese",
+      "price": "$7.99"
+    },
+    {
+      "description": "Ask about what vegetables we have in season!",
+      "dish": "Roasted vegetables",
+      "price": "$6.99"
+    },
+    {
+      "description": "Soups vary by season. Ask your server for todayÍs options",
+      "dish": "Soup",
+      "price": "$5.99"
+    },
+    {
+      "description": "A heaping plate of classic french fries. Crispy. Salty. Delicious. Served with an array of dipping sauces",
+      "dish": "French fries",
+      "price": "$7.99"
+    },
+    {
+      "description": "A twist on the classic fries. Fresh, flavorful, and sweet.",
+      "dish": "Sweet potato fries",
+      "price": "$8.99"
+    },
+    {
+      "description": "Hand-battered and fried chicken tenders. A customer favorite.",
+      "dish": "Crispy buttermilk chicken tenders",
+      "price": "$9.99"
+    },
+    {
+      "description": "Fresh greens and vegetables with your choice of dressing",
+      "dish": "House salad",
+      "price": "$7.99"
+    },
+    {
+      "description": "Made with local red bliss potatoes. Light and fluffy, a classic family style comfort food",
+      "dish": "Mashed potatoes",
+      "price": "$8.99"
+    }
+  ]
+}

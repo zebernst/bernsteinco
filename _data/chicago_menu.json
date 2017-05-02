@@ -1,0 +1,118 @@
+{
+  "appetizers": [
+    {
+      "description": "Fresh artichoke hearts, local spinach, garlic, and brie cheese. Served with our homemade crispy tortilla chips for dipping",
+      "dish": "Spinach and artichoke dip",
+      "price": "$8.95"
+    },
+    {
+      "description": "A customer favorite with just the right amount of crisp. Served with honey mustard dipping sauce",
+      "dish": "Sweet potato fries",
+      "price": "$5.95"
+    },
+    {
+      "description": "White-meat chicken coated in almonds and corn flake crumbs. Served with honey mustard dipping sauce",
+      "dish": "Chicken fingers",
+      "price": "$9.95"
+    },
+    {
+      "description": "Cheese curd, crispy fries, and herbed short-rib gravy",
+      "dish": "Poutine",
+      "price": "$9.95"
+    },
+    {
+      "description": "Chicken, caramelized onions, tomato, pepper jack cheese, scallions, and jalapenos. Served with sour cream and salsa and our homemade crispy tortilla chips for dipping. A large serving- perfect for sharing!",
+      "dish": "Chicken nachos",
+      "price": "$10.95"
+    }
+  ],
+  "dessert": [
+    {
+      "description": "A warm chocolate chip brownie topped with a heaping scoop of coffee ice cream, feuilletine brittle and rich chocolate ganache",
+      "dish": "Coffee praline bronie sundae",
+      "price": "$8.95"
+    },
+    {
+      "description": "A slice of our famous cheesecake, with a crumbly graham cracker crust, cherry coulis, and caramelized sugar",
+      "dish": "Classic cheesecake",
+      "price": "$7.95"
+    },
+    {
+      "description": "Dark chocolate covered espresso beans and pomegranate seeds. A customer favorite.",
+      "dish": "Tiramisu",
+      "price": "$8.95"
+    },
+    {
+      "description": "A slice of our rich chocolate cake, served with pecan custard and vanilla gelato",
+      "dish": "Flourless German chocolate cake",
+      "price": "$8.95"
+    },
+    {
+      "description": "A heaping scoop of your favorite flavor: chocolate, vanilla, coffee, peppermint-oroa, rocky road, chocolate chip cookie dough. Topped with whipped cream, chocolate sauce, peanuts, and a cherry",
+      "dish": "Ice cream sundae",
+      "price": "$7.95"
+    },
+    {
+      "description": "Ask your server about todayÕs selection of our famous freshly made pastries",
+      "dish": "Pastry",
+      "price": "$5.95"
+    },
+    {
+      "description": "A large plate of fresh-out-of-the oven chocolate chip cookies. Perfect to share with the whole table. Baked upon order, so please expect to wait 10-15 minutes",
+      "dish": "Plate of cookies",
+      "price": "$11.95"
+    }
+  ],
+  "main courses": [
+    {
+      "description": "Grilled chicken breast, fresh romaine lettuce, crunchy garlic croutons, parmesan cheese, and local cherry tomatoes, drizzled in our house-made caesar dressing",
+      "dish": "Chicken caesar salad",
+      "price": "$10.95"
+    },
+    {
+      "description": "Tea rubbed salmon, fresh local spinach, carrots, wasabi peas, Thai peanut noodles, pickled cucumber, drizzled with our house-made sesame ginger dressing",
+      "dish": "Asian salmon salad",
+      "price": "$13.95"
+    },
+    {
+      "description": "Slow cooked short ribs, caramelized onions, fresh local spinach, and a creamy three-cheese blend, topped with a Panko crust",
+      "dish": "Short rib mac'n cheese",
+      "price": "$16.95"
+    },
+    {
+      "description": "Yellow fin tuna, Thai peanut noodles, and chilled cucumber slaw, drizzled in our spicy ginger glaze",
+      "dish": "Sesame crusted tuna",
+      "price": "$17.95"
+    },
+    {
+      "description": "Fresh Atlantic cod, beer batter, served with french fries, lemon caper tartar sauce, and coleslaw",
+      "dish": "Fish and chips",
+      "price": "$15.95"
+    },
+    {
+      "description": "Beef burger piled with sauteed mushrooms, caramelized onions, applewood smoked bacon, and Swiss cheese served on a Kaiser roll with french fries and coleslaw.",
+      "dish": "Classic burger",
+      "price": "$14.95"
+    },
+    {
+      "description": "Char grilled chicken breast, applewood smoked bacon, house-made guacamole, pepper jack cheese, pickled red onion, and fresh mesclun greens, served on a Kaiser roll.",
+      "dish": "California chicken sandwich",
+      "price": "$10.95"
+    },
+    {
+      "description": "Smoked turkey, applewood smoked bacon, fresh mesclun greens, sliced tomato, feta cheese, and our house-made ranch dressing, served in an all-natural flour tortilla.",
+      "dish": "Turkey wrap",
+      "price": "$10.95"
+    },
+    {
+      "description": "Thick slices of fresh mozzarella cheese, tomato, and basil on toasted sourdough bread.",
+      "dish": "Caprese panini",
+      "price": "$10.95"
+    },
+    {
+      "description": "Slow braised house smoked pork, tangy barbeque sauce, house-made cole slaw, and pepper jack cheese, served on a Kaiser roll.",
+      "dish": "Barbeque pulled pork sandwich",
+      "price": "$10.95"
+    }
+  ]
+}
