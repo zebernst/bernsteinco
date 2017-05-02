@@ -327,11 +327,11 @@ if (isset($_POST["btnSubmit"])) {
 						<label class="required" for="lstLocation"> Location </label>
 						<select id="lstLocation"
 							tabindex="100">
-							<option <?php if ($location=="Boston" print "selected"; ?>
+							<option <?php if ($location=="Boston") print "selected"; ?>
 								value="Boston"> Boston </option>
-							<option <?php if ($location=="Burlington" print "selected"; ?>
+							<option <?php if ($location=="Burlington") print "selected"; ?>
 								value="Burlington"> Burlington </option>
-							<option <?php if ($location=="Chicago" print "selected"; ?>
+							<option <?php if ($location=="Chicago") print "selected"; ?>
 								value="Chicago"> Chicago </option>
 						</select>
 							
