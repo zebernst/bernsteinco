@@ -319,6 +319,95 @@ if (isset($_POST["btnSubmit"])) {
 
 		?>
 			<form action="<?php print $phpSelf; ?>" id="frmReserve" method="post">
+				<h1> Reservations </h1>
+				<fieldset class="reserveInfo <?php if ($resDateTimeERROR or $locationERROR or $partySizeERROR) print 'mistake'; ?>">
+					<legend> Reservation Information </legend>
+					<p>
+						<label class="required" for="lstLocation"> Location </label>
+						<select id="lstLocation"
+							tabindex="100">
+							<option <?php if ($location=="Boston" print "selected"; ?>
+								value="Boston"> Boston </option>
+							<option <?php if ($location=="Burlington" print "selected"; ?>
+								value="Burlington"> Burlington </option>
+							<option <?php if ($location=="Chicago" print "selected"; ?>
+								value="Chicago"> Chicago </option>
+						</select>
+							
+					   </p>
+					<p>
+						<label class="required" for="dtsReservation"> Date &amp; Time</label>
+							<input type="datetime-local"
+							       id="dtsReservation"
+							       name="dtsReservation"
+							       onfocus="this.select()"
+							       tabindex="150"
+							       value="">
+					</p>
+					
+						 </fieldset>		 
+				<section>
+					<h2> Contact Information </h2>
+					<p> 
+                    <label class="required text-field" for="txtFirstName"> First name </label>
+                    <input 
+                    <?php if ($firstNameERROR) print 'class="mistake"'; ?>
+                           id="txtFirstName"
+                           maxlength="45"
+                           name="txtFirstName"
+                           onfocus="this.select()"
+                           placeholder="Enter your first name"
+                           tabindex="200"
+                           type="text"
+                           value="<?php print $firstName; ?>"
+                           >
+						
+		<label class="required text-field" for="txtLastName"> Last name </label>
+                    <input 
+                    <?php if ($lastNameERROR) print 'class="mistake"'; ?>
+                           id="txtLastName"
+                           maxlength="45"
+                           name="txtLastName"
+                           onfocus="this.select()"
+                           placeholder="Enter your last name"
+                           tabindex="200"
+                           type="text"
+                           value="<?php print $LastName; ?>"
+                           >	
+					</p>
+					
+					
+				 <p>
+                    <label class="required" for="txtEmail"> Email </label>
+                    <input 
+                    <?php if ($emailERROR) print 'class="mistake"'; ?>    
+                        id="txtEmail"
+                        maxlength="55"
+                        name="txtEmail"
+                        onfocus="this.select()"
+                        placeholder="Enter a valid email address"
+                        tabindex="300"
+                        type="text"
+                        value="<?php print $email; ?>"
+                        >			 
+                </p>
+		<p>
+			      <label class="required" for="txtPhoneNumber"> Phone Number </label>
+                    <input 
+                    <?php if ($phoneNumberERROR) print 'class="mistake"'; ?>    
+                        id="txtPhoneNumber"
+                        maxlength="55"
+                        name="txtPhoneNumber"
+                        onfocus="this.select()"
+                        placeholder="Enter a valid email address"
+                        tabindex="300"
+                        type="tel"
+                        value="<?php print $phoneNumber; ?>"
+                        >
+			
+					</p>
+				</section>
+
 				<!-- form here 
 					- Drop down for which location 
 					- Name of person (first and last) 
