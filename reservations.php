@@ -1,5 +1,6 @@
 <?php include "_includes/top.php";?>
 <?php include "_includes/nav.php"; ?>
+<article class="reservations">
 <h1>Reservations</h1>
 <?php
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
@@ -277,7 +278,7 @@ if (isset($_POST["btnSubmit"])) {
 // Display Form
 ?>
 
-<article id='form article'>
+<article class='form'>
 	<?php 
 	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	// If first time on page OR errors exist, display form
@@ -345,6 +346,17 @@ if (isset($_POST["btnSubmit"])) {
 							       value="">
 					</p>
 					
+					<p>
+						<label class="required text-field" for="txtpartySize">Party Size</label>
+            						<input 
+                						id="txtpartySize"
+                						name="txtpartySize"
+                						onfocus="this.select()"
+                						tabindex="200"
+                						type="text"
+                						value="<?php print $partySize; ?>">  
+					</p>
+					
 						 </fieldset>		 
 				<section>
 					<h2> Contact Information </h2>
@@ -407,6 +419,24 @@ if (isset($_POST["btnSubmit"])) {
 			
 					</p>
 				</section>
+				
+	<p>
+        	<label for="txtAddInfo">Additional information we should know: </label>
+        	<textarea 
+            		id="txtAddInfo"
+            		name="txtAddInfo"
+            		onfocus="this.select()"
+            		tabindex="700"><?php print $comments; ?>
+        	</textarea>
+   	</p>
+    
+    	
+    
+    
+    <fieldset class="buttons">
+        <legend></legend>
+            <input class="button" id="btnReserve" name="btnReserve" tabindex="900" type="reserve" value="Reserve now">
+    </fieldset>
 
 				<!-- form here 
 					- Drop down for which location 
@@ -427,5 +457,6 @@ if (isset($_POST["btnSubmit"])) {
 		<?php
 	} // end body submit
 	?>
+</article>
 </article>
 <?php include "_includes/footer.php ";?>
