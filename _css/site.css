@@ -361,14 +361,14 @@ footer p {
 
 footer a:link {
     text-decoration: none;
-    color: gainsboro;
+    color: #bb6026;
 }
 
 footer a:visited {
     text-decoration: none;
-    color: gainsboro;
+    color: #bb6026;
 }
 
 footer a:hover {
-    color: #bb6026;
+    color: gainsboro;
 }
