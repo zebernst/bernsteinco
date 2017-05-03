@@ -251,7 +251,15 @@ figure.boston{
     text-align:center;
     float:left;
 }
-
+.boston h1{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    width:30%;
+    background-color:black;
+    opacity: .75;
+    
+}
 .boston img{
     width:100%
 }
