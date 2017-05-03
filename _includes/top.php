@@ -14,7 +14,7 @@
     ?>
 	<head>
 		<title>Bernstein &amp; Co. | <?php print ucfirst($path_parts['filename']); ?></title>
-
+		<link rel="shortcut icon" type="image/x-icon" href="../_media/favicon.ico">
 		<meta charset="utf-8">
 		<meta name="author" content="Zach Bernstein, Maria Kissel, Liv Hurd">
 		<meta name="description" content="Bernstein & Co. Steakhouse">
