@@ -166,7 +166,6 @@ nav a:hover {
     margin-left: 1.5%;
     margin-right: 5%;
     padding: 1%;
-    padding: 1%;
 }
 
 #family {
@@ -297,6 +296,14 @@ figure.chicago{
     margin-right:3%;
     text-align:center;
     float:left;   
+}
+.chicago h1{
+    position: absolute;
+    top: 60%;
+    left: 67%;
+    width: 30%;
+    opacity: .75;
+    background-color: black;
 }
 .chicago img {
     width: 100%
