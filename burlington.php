@@ -16,6 +16,7 @@
     <p><strong><u>Monday-Friday:</u> 11am - 11pm</strong></p>
     <p><strong><u>Saturday-Sunday: </u>10am-11pm</strong></p>
     </div>
+        <h2> <a href="menu_vermont.php" target="_blank"> Menu </a></h2>
     </div>
     </div>
 <div class="reserveNow">
