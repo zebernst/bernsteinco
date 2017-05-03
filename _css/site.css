@@ -243,6 +243,7 @@ nav a:hover {
     font-size: 1.75em;
     color: white;
 }
+
 figure.boston{
     width: 30%;
     margin-left:3%;
@@ -250,18 +251,15 @@ figure.boston{
     text-align:center;
     float:left;
 }
-figure.boston h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-}
+
 .boston img{
     width:100%
 }
-figure.boston a:hover{
+.boston img:hover{
+    color: darkgrey;
+    opacity: .5;
 }
+
 figure.burlington{
     width: 30%;
     margin-left:1%;
@@ -272,9 +270,7 @@ figure.burlington{
 .burlington img{
     width:100%;
 }
-.burlington a:hover{
-    color: rbga(0,0,0,.5);
-}
+
 figure.chicago{
     width: 30%;
     margin-left:1%;
@@ -285,9 +281,7 @@ figure.chicago{
 .chicago img {
     width: 100%
 }
-figure.chicago a:hover{
-}
-    
+ 
 .actMenu{
     border-top: 2px solid white;
     background-color: #54250f;
