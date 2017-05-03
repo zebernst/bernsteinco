@@ -21,7 +21,7 @@
 		<h1> Boston </h1>
 	</figure>
 	<figure class="burlington">
-		<a href="menu_burlingon.php" </a>
+		<a href="menu_vermont.php" </a>
 		<img src="_media/burlington.jpg" alt="burlington photo">
 		<h1> Burlington </h1>
 	</figure>
