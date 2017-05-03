@@ -247,8 +247,9 @@ nav a:hover {
 }
 
 #menuBox p{
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-family: 'Pacifico', cursive;
+    font-weight: bold;
 }
 
 #menuBox a:link{
@@ -262,11 +263,11 @@ nav a:hover {
 }
 
 #menuBox a:hover{
-    color:white;   
+    color:black;   
 }
 
 .actMenu{
-        border-top: 2px solid white;
+    border-top: 2px solid white;
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
