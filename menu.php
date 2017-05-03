@@ -14,10 +14,11 @@
 
 <article class="menu">
 <h1>Menu</h1>
+	<div id="menuBox">
 <p><a href='menu_boston.php'>Boston</a></p>
 <p><a href='menu_vermont.php'>Burlington</a></p>
 <p><a href='menu_chicago.php'>Chicago</a></p>
-
+	</div>
 </article>
 
 
