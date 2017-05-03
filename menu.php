@@ -19,6 +19,7 @@
 <p><a href='menu_vermont.php'>Burlington</a></p>
 <p><a href='menu_chicago.php'>Chicago</a></p>
 	</div>
+	<p id="extra"> <br/> </p>
 </article>
 
 
