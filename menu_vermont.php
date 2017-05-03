@@ -8,5 +8,6 @@
 <div>
 	<?php if ($vermont_menu_arr) print_menu_dl($vermont_menu_arr); ?>
 </div>
+	   <p id="extra"> <br/> </p>
 </article>
 <?php include "_includes/footer.php";?>
