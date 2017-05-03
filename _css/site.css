@@ -248,22 +248,22 @@ nav a:hover {
 
 #menuBox p{
     font-size: 1.75em;
-    font-family: 'Open Sans', cursive;
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
 }
 
 #menuBox a:link{
     text-decoration:none;
-    color:#bb6026;
+    color:black;
 }
 
 #menuBox a:visited{
     text-decoration: none;
-    color:#bb6026;
+    color:black;
 }
 
 #menuBox a:hover{
-    color:black;   
+    color:#bb6026;   
 }
 
 .actMenu{
