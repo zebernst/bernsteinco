@@ -6,7 +6,7 @@ function print_menu_dl($menu_arr) {
 		foreach ($menuItems as $menuItem) {
 			$itemName = $menuItem['dish'];
 			$itemCost = $menuItem['price'];
-			$menuDesc = $menuItem['description'];
+			$itemDesc = $menuItem['description'];
 			print "<dt><span>$itemName</span><span>$itemCost</span></dt>";
 			print "<dd>$itemDesc</dd>";
 		}
