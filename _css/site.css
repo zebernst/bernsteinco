@@ -239,29 +239,30 @@ nav a:hover {
 
 #menuBox{
     background-color:darkgrey;
-    width:40%;
+    width: 30%;
+    padding-bottom: .75em;
+    padding-top: .75em;
     margin:auto;
     text-align: center;
 }
 
 #menuBox p{
     font-size: 1.5em;
-    padding: .5em;
     font-family: 'Pacifico', cursive;
 }
 
 #menuBox a:link{
     text-decoration:none;
-    color:black;
+    color:#bb6026;
 }
 
 #menuBox a:visited{
     text-decoration: none;
-    color:black;
+    color:#bb6026;
 }
 
 #menuBox a:hover{
-    color:#bb6026;   
+    color:white;   
 }
 
 .actMenu{
