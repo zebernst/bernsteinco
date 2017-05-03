@@ -14,21 +14,24 @@
 
 <article class="menu">
 <h1>Menu</h1>
-	<h2> Select your location </h2>
+	<h2> Please select your location </h2>
 	<figure class="boston">
-		<a href="menu_boston.php" </a>
+		<a href="menu_boston.php">
 		<img src="_media/boston.jpg" alt="boston photo">
 		<h1> Boston </h1>
+		</a>
 	</figure>
 	<figure class="burlington">
-		<a href="menu_vermont.php" </a>
+		<a href="menu_vermont.php">
 		<img src="_media/burlington.jpg" alt="burlington photo">
 		<h1> Burlington </h1>
+			</a>
 	</figure>
 	<figure class="chicago">
-		<a href="menu_chicago.php" </a>
+		<a href="menu_chicago.php">
 		<img src="_media/chicago.jpg" alt="chicago photo">
 		<h1> Chicago </h1>
+			</a>
 	</figure>
 	<p id="extra"> <br/> </p>
 </article>
