@@ -221,6 +221,7 @@ nav a:hover {
     padding: 1%;
     float: left;
 }
+
 .menu {
      border-top: 2px solid white;
     background-color: #54250f;
@@ -228,6 +229,48 @@ nav a:hover {
     margin: 0;
 }
 
+.menu h1{
+    text-align:center;
+    color: white;
+    font-size:2em;
+    text-decoration: none;
+    margin: .5em auto;
+}
+
+#menuBox{
+    background-color:darkgrey;
+    width:40%;
+    margin:auto;
+    text-align: center;
+}
+
+#menuBox p{
+    font-size: 1.5em;
+    padding: .5em;
+    font-family: 'Pacifico', cursive;
+}
+
+#menuBox a:link{
+    text-decoration:none;
+    color:black;
+}
+
+#menuBox a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+#menuBox a:hover{
+    color:#bb6026;   
+}
+
+.actMenu{
+        border-top: 2px solid white;
+    background-color: #54250f;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color:white;
+}
 .locations {
     border-top: 2px solid white;
     background-color: #54250f;
@@ -336,8 +379,18 @@ nav a:hover {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
-    
 
+.owners{
+    border-top: 2px solid white;
+    background-color: #54250f;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.owners p{
+    color:white;
+}
+    
 #footer {
     background-color: black;
     border-top: 2.5px solid white;
