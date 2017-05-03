@@ -478,6 +478,13 @@ figure.chicago{
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+.reserveInfo{
+    width:40%;
+    margin:auto;
+}
+.reserveInfo legend{
+    font-size:1.5em;
+}
 
 .owners{
     border-top: 2px solid white;
