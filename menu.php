@@ -15,9 +15,9 @@
 <article class="menu">
 <h1>Menu</h1>
 	<div id="menuBox">
-<p><a href='menu_boston.php'>Boston</a></p>
-<p><a href='menu_vermont.php'>Burlington</a></p>
-<p><a href='menu_chicago.php'>Chicago</a></p>
+<p><a href='menu_boston.php'>Boston, Massachusetts</a></p>
+<p><a href='menu_vermont.php'>Burlington, Vermont</a></p>
+<p><a href='menu_chicago.php'>Chicago, Illinois</a></p>
 	</div>
 	<p id="extra"> <br/> </p>
 </article>
