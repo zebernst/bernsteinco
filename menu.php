@@ -14,11 +14,22 @@
 
 <article class="menu">
 <h1>Menu</h1>
-	<div id="menuBox">
-<p><a href='menu_boston.php'>Boston, Massachusetts</a></p>
-<p><a href='menu_vermont.php'>Burlington, Vermont</a></p>
-<p><a href='menu_chicago.php'>Chicago, Illinois</a></p>
-	</div>
+	<h2> Select your location </h2>
+	<figure class="boston">
+		<a href="menu_boston.php" </a>
+		<img src="_media/boston.jpg" alt="boston photo">
+		<h1> Boston </h1>
+	</figure>
+	<figure class="burlington">
+		<a href="menu_burlingon.php" </a>
+		<img src="_media/burlington.jpg" alt="burlington photo">
+		<h1> Burlington </h1>
+	</figure>
+	<figure class="chicago">
+		<a href="menu_chicago.php" </a>
+		<img src="_media/chicago.jpg" alt="chicago photo">
+		<h1> Chicago </h1>
+	</figure>
 	<p id="extra"> <br/> </p>
 </article>
 
