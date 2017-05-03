@@ -249,6 +249,9 @@ figure.boston{
     text-align:center;
     float:left;
 }
+img.boston {
+    width:90%
+}
 figure.burlington{
     width: 30%;
     margin-left:1%;
@@ -256,12 +259,19 @@ figure.burlington{
     text-align:center;
     float:left;   
 }
+img.burlington{
+    width:90%;
+}
+
 figure.chicago{
     width: 30%;
     margin-left:1%;
     margin-right:3%;
     text-align:center;
     float:left;   
+}
+img.chicago {
+    width: 90%
 }
 
     
