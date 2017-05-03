@@ -250,7 +250,9 @@ figure.boston{
     float:left;
 }
 img.boston {
-    width:90%
+    width:100%
+}
+figure.boston a:hover{
 }
 figure.burlington{
     width: 30%;
@@ -260,9 +262,10 @@ figure.burlington{
     float:left;   
 }
 img.burlington{
-    width:90%;
+    width:100%;
 }
-
+figure.burlington a:hover{
+}
 figure.chicago{
     width: 30%;
     margin-left:1%;
@@ -271,9 +274,10 @@ figure.chicago{
     float:left;   
 }
 img.chicago {
-    width: 90%
+    width: 100%
 }
-
+figure.chicago a:hover{
+}
     
 .actMenu{
     border-top: 2px solid white;
