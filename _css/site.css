@@ -590,7 +590,7 @@ figure.chicago {
     text-align: center;
 }
 
-#errors ol {
+errors ol {
     color: red;
     font-weight: bolder;
     margin-bottom: 1em;
