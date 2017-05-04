@@ -56,28 +56,6 @@
       "price": "$18"
     }
   ],
-  "dessert": [
-    {
-      "description": "Classic French Pate Sucre Tartlet with Brown Butter Filling & Caramelized Apples Topped with Vanilla Island Ice Cream & Whipped Cream",
-      "dish": "Caramel Apple Brown Butter Tart",
-      "price": ""
-    },
-    {
-      "description": "Pinot Noir Poached Pear with Cardamom, Cinnamon Clafoutis Served with Vanilla Island Ice Cream & Whipped Cream",
-      "dish": "Poached Pear Clafoutis",
-      "price": "$9"
-    },
-    {
-      "description": "Vt Cream Cheese & VT Mascarpone Disaranno Cheesecake Topped With Coconut Mousse & Chocolate Sauce",
-      "dish": "Toasted Almond Cheesecake",
-      "price": "$9"
-    },
-    {
-      "description": "A Rich Dark Chocolate & Milk Chocolate Mousse Cake with Raspberry Liqueur & a Walnut Crust with a Raspberry Coulis",
-      "dish": "Chocolate Delice Framboise",
-      "price": "$9"
-    }
-  ],
   "entrees": [
     {
       "description": "Slow cooked Beef Short Rib in a red wine reduction served with our signature Mac & Cheese",
@@ -128,6 +106,28 @@
       "description": "Fried Buttermilk Chicken Crispers, Mixed Greens, Bacon, Red Onions, Bell Peppers, Corn Kernels, Julienned Carrots, Grape Tomatoes, Shredded Monterey Jack and Cheddar Cheese and Sweet Waffle Croutons Tossed in a Bourbon Pear Dressing",
       "dish": "Southern Fried Chicken Salad",
       "price": "$19"
+    }
+  ],
+  "dessert": [
+    {
+      "description": "Classic French Pate Sucre Tartlet with Brown Butter Filling & Caramelized Apples Topped with Vanilla Island Ice Cream & Whipped Cream",
+      "dish": "Caramel Apple Brown Butter Tart",
+      "price": ""
+    },
+    {
+      "description": "Pinot Noir Poached Pear with Cardamom, Cinnamon Clafoutis Served with Vanilla Island Ice Cream & Whipped Cream",
+      "dish": "Poached Pear Clafoutis",
+      "price": "$9"
+    },
+    {
+      "description": "Vt Cream Cheese & VT Mascarpone Disaranno Cheesecake Topped With Coconut Mousse & Chocolate Sauce",
+      "dish": "Toasted Almond Cheesecake",
+      "price": "$9"
+    },
+    {
+      "description": "A Rich Dark Chocolate & Milk Chocolate Mousse Cake with Raspberry Liqueur & a Walnut Crust with a Raspberry Coulis",
+      "dish": "Chocolate Delice Framboise",
+      "price": "$9"
     }
   ]
 }
