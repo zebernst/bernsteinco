@@ -258,7 +258,6 @@ figure.boston {
     opacity: .5;
 }
 
-
 figure.burlington {
     width: 30%;
     margin-left: 1%;
@@ -288,8 +287,6 @@ figure.burlington {
     opacity: .5;
 }
 
-
-
 figure.chicago {
     width: 30%;
     margin-left: 1%;
@@ -318,7 +315,6 @@ figure.chicago {
 .chicago:hover img {
     opacity: .5;
 }
-
 
 .actMenu {
     border-top: 2px solid white;
@@ -508,12 +504,7 @@ figure.chicago {
     text-align: center;
     color: #bb6026;
     margin: 0;
-}
-
-.form h1 {
-    color: #54250f;
-    background-color: #54250f;
-    margin: 0;
+    padding-bottom: 1em;
 }
 
 .reserveInfo {
