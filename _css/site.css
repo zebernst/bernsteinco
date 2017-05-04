@@ -211,6 +211,7 @@ nav a:hover {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     display: inline-block;
+    width:100%;
 }
 
 .menu h1 {
@@ -582,11 +583,14 @@ figure.chicago {
 }
 
 #errors {
+    text-align: left;
+}
+
+#errors p {
     text-align: center;
 }
 
 #errors ol {
-    text-align: center;
     color: red;
     font-weight: bolder;
     margin-bottom: 1em;
