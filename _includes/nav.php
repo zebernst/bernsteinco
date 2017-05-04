@@ -2,12 +2,12 @@
 <nav>
     <ol>
         <?php
-        include "_lib/navitem.php";
-        navitem('/bernsteinco/home.php','Home');
-		navitem('/bernsteinco/about.php','About');
-        navitem('/bernsteinco/menu.php','Menu');
-        navitem('/bernsteinco/locations.php','Locations');
-        navitem('/bernsteinco/reservations.php','Reservations')
+        include $root . "/_lib/navitem.php";
+        navitem($rootFolder . '/home.php','Home');
+		navitem($rootFolder . '/about.php','About');
+        navitem($rootFolder . '/menu.php','Menu');
+        navitem($rootFolder . '/locations.php','Locations');
+        navitem($rootFolder . '/reservations.php','Reservations')
         ?>
     </ol>
 </nav>

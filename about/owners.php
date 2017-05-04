@@ -1,5 +1,5 @@
-<?php include "_includes/top.php";?>
-<?php include "_includes/nav.php";?>
+<?php include "../_includes/top.php";?>
+<?php include "../_includes/nav.php";?>
 <article class="owners">
     <h1>The Bernstein &amp; Co. Family</h1>
     <br>
@@ -47,4 +47,4 @@
         <br> 
     </p>
 </article>
-<?php include "_includes/footer.php";?>
+<?php include "../_includes/footer.php";?>

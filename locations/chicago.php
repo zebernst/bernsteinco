@@ -1,5 +1,5 @@
-<?php include "_includes/top.php";?>
-<?php include "_includes/nav.php";?>
+<?php include "../_includes/top.php";?>
+<?php include "../_includes/nav.php";?>
 <article class="actLocation">
     <div class="location">
         <h1>Chicago, Illinois</h1>
@@ -20,16 +20,16 @@
                 <p><strong><u>Monday-Friday:</u> 11am - 11pm</strong></p>
                 <p><strong><u>Saturday-Sunday:</u> 10am - 11pm </strong></p>
             </div>
-            <h2><a href="menu_chicago.php" target="_blank"> Menu </a></h2>
+            <h2><a href="<?php print $rootFolder; ?>/menu_chicago.php" target="_blank"> Menu </a></h2>
         </div>
     </div>
     <div class="reserveNow">
         <p>
-            <a href="reservations.php">Reserve now!</a>
+            <a href="<?php print $rootFolder; ?>/reservations.php">Reserve now!</a>
         </p>
     </div>
     <p id="extra">
         <br>
     </p>
 </article>
-<?php include "_includes/footer.php";?>
+<?php include "../_includes/footer.php";?>

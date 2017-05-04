@@ -15,6 +15,10 @@
         print '</pre>';
     }
 
+    // Includes
+    include $root . "/_lib/validation-functions.php";
+    include $root . "/_lib/mail-message.php";
+
     //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -513,4 +517,5 @@
         <?php } // end body submit ?>
         <p><br/></p>
     </article>
-    <?php include "_includes/footer.php"; ?>
+</article>
+<?php include "_includes/footer.php"; ?>
