@@ -250,13 +250,16 @@ figure.boston{
     text-align:center;
     float:left;
 }
+.boston div{
+    position:relative;
+}
 .boston h1 {
     position: absolute;
-    top: 60%;
-    left: 3%;
-    width:30%;
+    top: 50%;
+    width:100%;
     background-color:black;
     opacity: .75;
+    margin:0;
     
 }
 .boston img{
@@ -265,7 +268,6 @@ figure.boston{
 .boston:hover img{
 
     opacity:.5;
-
 }
 
 figure.burlington{
@@ -275,19 +277,21 @@ figure.burlington{
     text-align:center;
     float:left;   
 }
+.burlington div{
+    position: relative;
+}
 .burlington h1{
     position: absolute;
-    top: 60%;
-    left: 35%;
-    width: 30%;
+    top: 50%;
+    width: 100%;
     opacity: .75;
     background-color: black;
+    margin:0;
 }
 .burlington img{
     width:100%;
 }
-.burlington img:hover{
-
+.burlington:hover img {
     opacity: .5;
 }
 
@@ -298,21 +302,24 @@ figure.chicago{
     text-align:center;
     float:left;   
 }
+.chicago div{
+    position: relative;
+}
 .chicago h1 {
     position: absolute;
-    top: 60%;
-    left: 67%;
-    width: 30%;
+    top: 50%;
+    width: 100%;
     opacity: .75;
     background-color: black;
+    margin:0;
 }
 .chicago img {
     width: 100%
 }
-.chicago img:hover{
-
+.chicago:hover img{
     opacity: .5;
 }
+
  
 .actMenu{
     border-top: 2px solid white;
@@ -407,7 +414,6 @@ figure.chicago{
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    display: flow-root;
 }
 
 .abtLocation a {
@@ -478,12 +484,86 @@ figure.chicago{
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+.form{
+    background-color:white;
+    width:70%;
+    margin:auto;
+}
+#reserve {
+    background-color: #54250f;
+    text-align: center;
+    color: #bb6026;
+    margin:0;
+    padding-top:1em;
+}
+.form-heading{
+    background-color:#54250f;
+    text-align: center;
+    color: #bb6026;
+    margin:0;
+}
+.form h1{
+    color:#54250f;
+    background-color: #54250f;
+    margin:0;
+}
 .reserveInfo{
     width:40%;
     margin:auto;
+    margin-top: 1em;
+    border:2px solid black;
 }
 .reserveInfo legend{
     font-size:1.5em;
+    text-decoration: underline;
+    color: #bb6026;
+}
+
+.section  {
+    padding: 1em;
+}
+.section h2{
+    color: #bb6026;
+    border-bottom: 2px solid black;
+}
+
+.section p{
+    text-align:center;
+}
+
+#txtFirstName{
+    margin-right: 2em;
+}
+
+#txtEmail{
+    width:15em;
+}
+#txtPhoneNumber{
+    width:15em;
+}
+.radio {
+    border:none;
+    text-align: center;
+}
+.checkbox{
+    border:none;
+    text-align: center;
+}
+#txtComments{
+    height:5em;
+    width:20em;
+}
+.buttons{
+    border:none;
+    text-align:center;
+}
+.button{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: .5em;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .owners{

@@ -17,20 +17,26 @@
 	<h2> Please select your location </h2>
 	<figure class="boston">
 		<a href="menu_boston.php">
+		<div>
 		<img src="_media/boston.jpg" alt="boston photo">
 		<h1> Boston </h1>
+		<div>
 		</a>
 	</figure>
 	<figure class="burlington">
 		<a href="menu_vermont.php">
+		<div>
 		<img src="_media/burlington.jpg" alt="burlington photo">
 		<h1> Burlington </h1>
+		</div>
 			</a>
 	</figure>
 	<figure class="chicago">
 		<a href="menu_chicago.php">
+		<div>
 		<img src="_media/chicago.jpg" alt="chicago photo">
 		<h1> Chicago </h1>
+		</div>
 			</a>
 	</figure>
 	<p id="extra"> <br/> </p>

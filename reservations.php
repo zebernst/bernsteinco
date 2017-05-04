@@ -1,7 +1,7 @@
 <?php include "_includes/top.php";?>
 <?php include "_includes/nav.php"; ?>
 <article class="reservations">
-<h1>Reservations</h1>
+
 <?php
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
@@ -296,7 +296,7 @@ if (isset($_POST["btnReserve"])) {
 
     } else {
 
-        print '<h2>Reserve a table</h2>';
+        print '<h2 id="reserve">Reserve a table</h2>';
         print '<p class="form-heading">We\'d be delighted to have you!</p>';
 
         // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -359,7 +359,7 @@ if (isset($_POST["btnReserve"])) {
                         value="<?php print $partySize; ?>">  
                 </p>
             </fieldset>      
-            <section>
+            <section class="section">
                 <h2>Contact Information</h2>
                 <p> 
                     <label class="required text-field" for="txtFirstName">First name</label>
@@ -409,7 +409,7 @@ if (isset($_POST["btnReserve"])) {
                         value="<?php print $phoneNumber; ?>">
                 </p>
             </section>
-            <section>
+            <section class="section">
                 <h2>Additional Information</h2>
                 <fieldset class="radio <?php if ($specOccasionERROR) print 'mistake'; ?>">
                     <legend>Are you celebrating a special occasion with us?</legend>
@@ -420,7 +420,7 @@ if (isset($_POST["btnReserve"])) {
                             name="radSpecOccasion"
                             value="Anniversary"
                             tabindex="750"
-                            <?php if ($specOcassion == "Anniversary") echo 'checked="checked" '; ?>>
+                            <?php if ($specOccasion == "Anniversary") echo 'checked="checked" '; ?>>
                             Anniversary</label>
                     </p>
                     <p>
@@ -505,5 +505,6 @@ if (isset($_POST["btnReserve"])) {
             </fieldset>
         </form>
     <?php } // end body submit ?>
+    <p> <br/> </p>
 </article>
 <?php include "_includes/footer.php"; ?>
