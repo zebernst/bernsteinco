@@ -403,7 +403,7 @@ if (isset($_POST["btnReserve"])) {
                         maxlength="55"
                         name="txtPhoneNumber"
                         onfocus="this.select()"
-                        placeholder="Enter a valid email address"
+                        placeholder="Enter a valid phone number"
                         tabindex="300"
                         type="tel"
                         value="<?php print $phoneNumber; ?>">
@@ -430,7 +430,7 @@ if (isset($_POST["btnReserve"])) {
                                 name="radSpecOccasion"
                                 value="Birthday"
                                 tabindex="770"
-                                <?php if ($specOcassion == "Birthday") echo 'Checked="checked" '; ?>>
+                                <?php if ($specOccasion == "Birthday") echo 'Checked="checked" '; ?>>
                                 Birthday</label>    
                     </p>
                     <p>
@@ -440,7 +440,7 @@ if (isset($_POST["btnReserve"])) {
                             name="radSpecOccasion"
                             value="Graduation"
                             tabindex="790"
-                            <?php if ($specOcassion == "Graduation") echo 'checked="checked" '; ?>>
+                            <?php if ($specOccasion == "Graduation") echo 'checked="checked" '; ?>>
                             Graduation</label>    
                     </p>
                     <p>
@@ -450,7 +450,7 @@ if (isset($_POST["btnReserve"])) {
                             name="radSpecOccasion"
                             value="None"
                             tabindex="810"
-                            <?php if ($specOcassion == "None") echo 'checked="checked" '; ?>>
+                            <?php if ($specOccasion == "None") echo 'checked="checked" '; ?>>
                             None</label>    
                     </p>
                 </fieldset>
@@ -485,7 +485,7 @@ if (isset($_POST["btnReserve"])) {
                     </p>
                 </fieldset>        
                 <p>
-                    <label class="required" for="txtComments">Comments </label>
+                    <label id="comments" class="required" for="txtComments">Comments </label>
                     <textarea
                         id="txtComments"
                         name="txtComments"

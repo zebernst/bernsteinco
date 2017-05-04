@@ -83,10 +83,9 @@ nav a:hover {
     color: #bb6026;
     padding: 1em;
     width: 40%;
-    list-style: inside;
     margin-left: 1.5%;
     line-height: 2em;
-    list-style-type: none;
+    list-style: none inside;
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -161,10 +160,7 @@ nav a:hover {
     float: left;
     width: 35%;
     background-color: rgba(245, 244, 244, .7);
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-left: 1.5%;
-    margin-right: 5%;
+    margin: 1em 5% 1em 1.5%;
     padding: 1%;
 }
 
@@ -173,10 +169,7 @@ nav a:hover {
     width: 50%;
     float: left;
     clear: left;
-    margin-left: 5%;
-    margin-right: 1.5%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em 1.5% 1em 5%;
 }
 
 #family2 {
@@ -190,21 +183,15 @@ nav a:hover {
 .abtBox3 {
     float: right;
     width: 35%;
-    margin-right: 5%;
     background-color: rgba(245, 244, 244, .7);
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-left: 1.5%;
+    margin: 1em 5% 1em 1.5%;
     padding: 1%;
 }
 
 .abtBox4 {
     width: 48%;
-    margin-right: 1.5%;
     background-color: rgba(245, 244, 244, .7);
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-left: 5%;
+    margin: 1em 1.5% 1em 5%;
     padding: 1%;
     float: left;
     clear: left;
@@ -212,145 +199,159 @@ nav a:hover {
 
 .abtBox5 {
     width: 48%;
-    margin-right: 1.5%;
     background-color: rgba(245, 244, 244, .7);
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-left: 5%;
+    margin: 1em 1.5% 1em 5%;
     padding: 1%;
     float: left;
 }
 
 .menu {
-     border-top: 2px solid white;
+    border-top: 2px solid white;
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     display: inline-block;
 }
 
-.menu h1{
-    text-align:center;
+.menu h1 {
+    text-align: center;
     color: white;
-    font-size:2em;
+    font-size: 2em;
     text-decoration: none;
     margin: .5em auto;
 }
 
-.menu h2{
+.menu h2 {
     text-align: center;
     font-size: 1.75em;
     color: white;
 }
 
-figure.boston{
+figure.boston {
     width: 30%;
-    margin-left:3%;
-    margin-right:1%;
-    text-align:center;
-    float:left;
+    margin-left: 3%;
+    margin-right: 1%;
+    text-align: center;
+    float: left;
 }
-.boston div{
-    position:relative;
+
+.boston div {
+    position: relative;
 }
+
 .boston h1 {
     position: absolute;
     top: 50%;
-    width:100%;
-    background-color:black;
+    width: 100%;
+    background-color: black;
     opacity: .75;
-    margin:0;
-    
-}
-.boston img{
-    width:100%
-}
-.boston:hover img{
+    margin: 0;
 
-    opacity:.5;
 }
 
-figure.burlington{
+.boston img {
+    width: 100%
+}
+
+.boston:hover img {
+
+    opacity: .5;
+}
+
+
+figure.burlington {
     width: 30%;
-    margin-left:1%;
-    margin-right:1%;
-    text-align:center;
-    float:left;   
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    float: left;
 }
-.burlington div{
+
+.burlington div {
     position: relative;
 }
-.burlington h1{
+
+.burlington h1 {
     position: absolute;
     top: 50%;
     width: 100%;
     opacity: .75;
     background-color: black;
-    margin:0;
+    margin: 0;
 }
-.burlington img{
-    width:100%;
+
+.burlington img {
+    width: 100%;
 }
+
 .burlington:hover img {
     opacity: .5;
 }
 
-figure.chicago{
+
+
+figure.chicago {
     width: 30%;
-    margin-left:1%;
-    margin-right:3%;
-    text-align:center;
-    float:left;   
+    margin-left: 1%;
+    margin-right: 3%;
+    text-align: center;
+    float: left;
 }
-.chicago div{
+
+.chicago div {
     position: relative;
 }
+
 .chicago h1 {
     position: absolute;
     top: 50%;
     width: 100%;
     opacity: .75;
     background-color: black;
-    margin:0;
+    margin: 0;
 }
+
 .chicago img {
     width: 100%
 }
-.chicago:hover img{
+
+.chicago:hover img {
     opacity: .5;
 }
 
- 
-.actMenu{
+
+.actMenu {
     border-top: 2px solid white;
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    color:white;
-}
-.menu-section{
-   text-align:center;
-    font-size:2.2em;
-    margin:.5em auto;
-    text-decoration:none;
-    font-weight:bolder;
-    color:#bb6026;
+    color: white;
 }
 
-.actMenu dl{
+.menu-section {
+    text-align: center;
+    font-size: 2.2em;
+    margin: .5em auto;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #bb6026;
+}
+
+.actMenu dl {
     background-color: darkgrey;
-    width:70%;
+    width: 70%;
     margin: 1em auto;
 
     padding: 1em;
 }
-.actMenu dt{
-    color:black;
+
+.actMenu dt {
+    color: black;
     max-width: 100%;
     padding: 0;
     overflow-x: hidden;
-    font-weight:bolder;
-    font-size:1em;
+    font-weight: bolder;
+    font-size: 1em;
 
 }
 
@@ -361,22 +362,26 @@ figure.chicago{
     /* content: "................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
 */
 }
+
 .actMenu dt span:first-child {
     padding-right: 1em;
-    text-decoration:underline;
+    text-decoration: underline;
 }
+
 .actMenu dt span + span {
     float: right;
     padding-left: 1em;
 
 }
-.actMenu dd{
-    padding-top:.5em;
+
+.actMenu dd {
+    padding-top: .5em;
     padding-bottom: .5em;
-    font-style:italic;
-    font-size:.75em;
+    font-style: italic;
+    font-size: .75em;
     font-weight: lighter;
 }
+
 .locations {
     border-top: 2px solid white;
     background-color: #54250f;
@@ -452,8 +457,7 @@ figure.chicago{
 .locBox {
     background-color: darkgrey;
     width: 30%;
-    margin: auto;
-    margin-bottom: 1em;
+    margin: auto auto 1em;
     padding: 1em;
 }
 
@@ -478,86 +482,106 @@ figure.chicago{
     padding: .25em;
 }
 
-.reservations{
+.reservations {
     border-top: 2px solid white;
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
-.form{
-    background-color:white;
-    width:70%;
-    margin:auto;
+
+.form {
+    background-color: white;
+    width: 70%;
+    margin: auto;
 }
+
 #reserve {
     background-color: #54250f;
     text-align: center;
     color: #bb6026;
-    margin:0;
-    padding-top:1em;
+    margin: 0;
+    padding-top: 1em;
 }
-.form-heading{
-    background-color:#54250f;
+
+.form-heading {
+    background-color: #54250f;
     text-align: center;
     color: #bb6026;
-    margin:0;
+    margin: 0;
 }
-.form h1{
-    color:#54250f;
+
+.form h1 {
+    color: #54250f;
     background-color: #54250f;
-    margin:0;
+    margin: 0;
 }
-.reserveInfo{
-    width:40%;
-    margin:auto;
-    margin-top: 1em;
-    border:2px solid black;
+
+.reserveInfo {
+    width: 40%;
+    margin: 1em auto auto;
+    border: 2px solid black;
 }
-.reserveInfo legend{
-    font-size:1.5em;
+
+.reserveInfo legend {
+    font-size: 1.5em;
     text-decoration: underline;
     color: #bb6026;
 }
 
-.section  {
+.reserveInfo p {
+    text-align: center;
+}
+
+.section {
     padding: 1em;
 }
-.section h2{
+
+.section h2 {
     color: #bb6026;
     border-bottom: 2px solid black;
 }
 
-.section p{
-    text-align:center;
+.section p {
+    text-align: center;
 }
 
-#txtFirstName{
+#txtFirstName {
     margin-right: 2em;
 }
 
-#txtEmail{
-    width:15em;
+#txtEmail {
+    width: 15em;
 }
-#txtPhoneNumber{
-    width:15em;
+
+#txtPhoneNumber {
+    width: 15em;
 }
+
 .radio {
-    border:none;
+    border: none;
     text-align: center;
 }
-.checkbox{
-    border:none;
+
+.checkbox {
+    border: none;
     text-align: center;
 }
-#txtComments{
-    height:5em;
-    width:20em;
+
+#comments {
+    vertical-align: top;
 }
-.buttons{
-    border:none;
-    text-align:center;
+
+#txtComments {
+    height: 5em;
+    width: 20em;
 }
-.button{
+
+.buttons {
+    border: none;
+    text-align: center;
+}
+
+.button {
     border: none;
     color: white;
     background-color: black;
@@ -566,17 +590,33 @@ figure.chicago{
     font-family: 'Raleway', sans-serif;
 }
 
-.owners{
+#errors {
+    text-align: center;
+}
+
+#errors ol {
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    list-style-position: inside;
+}
+
+.mistake {
+    border: 2px solid red;
+}
+
+.owners {
     border-top: 2px solid white;
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 
-.owners p{
-    color:white;
+.owners p {
+    color: white;
 }
-    
+
 #footer {
     background-color: black;
     border-top: 2.5px solid white;
