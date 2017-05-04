@@ -26,43 +26,6 @@
       "price": "$10.95"
     }
   ],
-  "dessert": [
-    {
-      "description": "A warm chocolate chip brownie topped with a heaping scoop of coffee ice cream, feuilletine brittle and rich chocolate ganache",
-      "dish": "Coffee praline bronie sundae",
-      "price": "$8.95"
-    },
-    {
-      "description": "A slice of our famous cheesecake, with a crumbly graham cracker crust, cherry coulis, and caramelized sugar",
-      "dish": "Classic cheesecake",
-      "price": "$7.95"
-    },
-    {
-      "description": "Dark chocolate covered espresso beans and pomegranate seeds. A customer favorite.",
-      "dish": "Tiramisu",
-      "price": "$8.95"
-    },
-    {
-      "description": "A slice of our rich chocolate cake, served with pecan custard and vanilla gelato",
-      "dish": "Flourless German chocolate cake",
-      "price": "$8.95"
-    },
-    {
-      "description": "A heaping scoop of your favorite flavor: chocolate, vanilla, coffee, peppermint-oroa, rocky road, chocolate chip cookie dough. Topped with whipped cream, chocolate sauce, peanuts, and a cherry",
-      "dish": "Ice cream sundae",
-      "price": "$7.95"
-    },
-    {
-      "description": "Ask your server about todayÕs selection of our famous freshly made pastries",
-      "dish": "Pastry",
-      "price": "$5.95"
-    },
-    {
-      "description": "A large plate of fresh-out-of-the oven chocolate chip cookies. Perfect to share with the whole table. Baked upon order, so please expect to wait 10-15 minutes",
-      "dish": "Plate of cookies",
-      "price": "$11.95"
-    }
-  ],
   "main courses": [
     {
       "description": "Grilled chicken breast, fresh romaine lettuce, crunchy garlic croutons, parmesan cheese, and local cherry tomatoes, drizzled in our house-made caesar dressing",
@@ -113,6 +76,43 @@
       "description": "Slow braised house smoked pork, tangy barbeque sauce, house-made cole slaw, and pepper jack cheese, served on a Kaiser roll.",
       "dish": "Barbeque pulled pork sandwich",
       "price": "$10.95"
+    }
+  ],
+  "dessert": [
+    {
+      "description": "A warm chocolate chip brownie topped with a heaping scoop of coffee ice cream, feuilletine brittle and rich chocolate ganache",
+      "dish": "Coffee praline bronie sundae",
+      "price": "$8.95"
+    },
+    {
+      "description": "A slice of our famous cheesecake, with a crumbly graham cracker crust, cherry coulis, and caramelized sugar",
+      "dish": "Classic cheesecake",
+      "price": "$7.95"
+    },
+    {
+      "description": "Dark chocolate covered espresso beans and pomegranate seeds. A customer favorite.",
+      "dish": "Tiramisu",
+      "price": "$8.95"
+    },
+    {
+      "description": "A slice of our rich chocolate cake, served with pecan custard and vanilla gelato",
+      "dish": "Flourless German chocolate cake",
+      "price": "$8.95"
+    },
+    {
+      "description": "A heaping scoop of your favorite flavor: chocolate, vanilla, coffee, peppermint-oroa, rocky road, chocolate chip cookie dough. Topped with whipped cream, chocolate sauce, peanuts, and a cherry",
+      "dish": "Ice cream sundae",
+      "price": "$7.95"
+    },
+    {
+      "description": "Ask your server about todayÕs selection of our famous freshly made pastries",
+      "dish": "Pastry",
+      "price": "$5.95"
+    },
+    {
+      "description": "A large plate of fresh-out-of-the oven chocolate chip cookies. Perfect to share with the whole table. Baked upon order, so please expect to wait 10-15 minutes",
+      "dish": "Plate of cookies",
+      "price": "$11.95"
     }
   ]
 }
