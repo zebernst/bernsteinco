@@ -37,19 +37,13 @@
         <ul>
             <li>“Wonderful atmosphere, great people, and an overall good time!” -Stacy</li>
             <li>“Great food! Perfect place for a celebration!” -Todd</li>
-            <li>“Bernstein &amp; Co. made my rehearsal dinner memorable and easy to organize – hassle free.” - Meghan
-            </li>
+            <li>“Bernstein &amp; Co. made my rehearsal dinner memorable and easy to organize – hassle free.” - Meghan</li>
             <li>“Will definitely go back once I’m in the city again!” - Chad</li>
             <li>“You can taste the freshness &amp; their local selection of beers is out of this world!!!” -Morgan</li>
             <li>“The meat is the good.” -Bob Erickson</li>
-            <li>“Honestly, some of the best food I have ever had. Their steaks are great &amp; the staff is wonderful.”
-                –Alex
-            </li>
-            <li>“Best place to have a large party! Very well done. Their personal event coordinator really made my night
-                special.” -Eliza
-            </li>
-            <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion
-            </li>
+            <li>“Honestly, some of the best food I have ever had. Their steaks are great &amp; the staff is wonderful.” –Alex</li>
+            <li>“Best place to have a large party! Very well done. Their personal event coordinator really made my night special.” -Eliza</li>
+            <li>“Great website. Favorite students. Dedicated to making websites. 10/10 – would recommend.” – Lisa Dion</li>
         </ul>
     </div>
     <p id="extra"><br/></p>
