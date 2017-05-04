@@ -606,6 +606,19 @@ figure.chicago {
     background-color: #54250f;
     font-family: 'Raleway', sans-serif;
     margin: 0;
+    display: inline-block;
+    width:100%;
+}
+.owners h1{
+    text-align:center;
+    color: #bb6026;
+    font-family:'Raleway', sans-serif;
+    font-weight:bolder;
+    font-size:3em;
+    margin:0;
+    padding:.75em;
+    text-decoration: underline;
+
 }
 
 .owners p {
@@ -623,6 +636,151 @@ figure.chicago {
     text-align: center;
     padding-top: .75em;
     margin: auto;
+}
+.zach {
+    width: 30%;
+    height: 450px;
+    float: left;
+    margin-left: 3%;
+    margin-right: 1%;
+    background-color:gainsboro;
+    text-align:center;
+    vertical-align: middle;
+    position:relative
+}
+
+
+.zach a p{
+    display:none;
+}
+.zach a:hover p{
+    display:block;
+    background-color: gainsboro;
+    opacity: 1;
+    height: 98%;
+    margin: 0;
+    color:black;
+    position: absolute;
+    padding: 1%;
+    font-size:1em;
+    text-align: justify;
+
+}
+.zach a h2{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    background-color: black;
+    opacity: .85;
+    margin: 0;
+    display:block;
+    font-size:2em;
+    text-decoration: none;
+    color:white;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+
+.zach a:hover h2{
+    display:none;
+}
+.olivia {
+    width: 30%;
+    height: 450px;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:gainsboro;
+    text-align:center;
+    vertical-align: middle;
+    position:relative
+}
+
+
+.olivia a p{
+    display:none;
+}
+.olivia a:hover p{
+    display:block;
+    background-color: gainsboro;
+    opacity: 1;
+    height: 98%;
+    margin: 0;
+    color:black;
+    position: absolute;
+    padding: 1%;
+    font-size:1em;
+    text-align: justify;
+
+}
+.olivia a h2{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    background-color: black;
+    opacity: .85;
+    margin: 0;
+    display:block;
+    font-size:2em;
+    text-decoration: none;
+    color:white;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+
+.olivia a:hover h2{
+    display:none;
+}
+.maria {
+    width: 30%;
+    height: 450px;
+    float: left;
+    margin-left: 1%;
+    margin-right: 3%;
+    background-color:gainsboro;
+    text-align:center;
+    vertical-align: middle;
+    position:relative;
+}
+
+
+.maria a p{
+    display:none;
+}
+.maria a:hover p{
+    display:block;
+    background-color: gainsboro;
+    opacity: 1;
+    height: 98%;
+    margin: 0;
+    color:black;
+    position: absolute;
+    padding: 1%;
+    font-size:1em;
+    text-align: justify;
+
+}
+.maria a h2{
+    display:block;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    background-color: black;
+    opacity: .85;
+    margin: 0;
+  padding-bottom:1em;
+    padding-top:1em;
+    font-size:2em;
+    text-decoration: none;
+    color:white;
+
+}
+.maria a:hover h2{
+    display:none;
+}
+
+#why{
+    clear:left;
 }
 
 footer p {
