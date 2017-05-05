@@ -662,6 +662,7 @@ figure.chicago {
     margin: 0;
     color:black;
     position: absolute;
+    overflow:scroll;
     padding: 1%;
     font-size:1em;
     text-align: justify;
@@ -708,6 +709,7 @@ figure.chicago {
     height: 98%;
     margin: 0;
     color:black;
+    overflow:scroll;
     position: absolute;
     padding: 1%;
     font-size:1em;
@@ -754,6 +756,7 @@ figure.chicago {
     opacity: 1;
     height: 98%;
     margin: 0;
+    overflow:scroll;
     color:black;
     position: absolute;
     padding: 1%;
