@@ -1,6 +1,9 @@
 # bernsteinco
 ## **_DUE DATE: FRIDAY, MAY 5 AT MIDNIGHT_**
 
+`we done fam`
+
+<!--
 Next Meeting: Thursday, April 27 @ 4:30pm
 
 Olivia: Boston Location info, Chicago menu/location info
@@ -21,3 +24,4 @@ Form elements:
 - radio buttons (special occasion): graduation, anniversary, wedding, etc. 
 - who's coming: adult, child, infant (for menu types and baby chairs)
 - Submit Button
+-->
