@@ -29,7 +29,8 @@ nav ol {
 
 nav li {
     display: inline;
-    padding: 7%;
+    padding: 5%;
+    font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
     color: white;
     text-decoration: none;
