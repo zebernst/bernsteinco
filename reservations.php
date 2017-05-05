@@ -515,7 +515,8 @@
                 </fieldset>
             </form>
         <?php } // end body submit ?>
-        <p><br/></p>
+
     </article>
+    <p id="extra"><br/></p>
 </article>
 <?php include "_includes/footer.php"; ?>
