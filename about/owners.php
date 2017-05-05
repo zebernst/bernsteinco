@@ -6,7 +6,18 @@
     <div class="zach">
         <a>
             <h2>Zach Bernstein</h2>
-            <p>insert info here</p>
+            <p>
+                <br/> Zach Bernstein is originally from Northbrook, IL, one of the northern suburbs of Chicago. He's pursuing
+                a B.S. in data science at the University of Vermont. Zach has two younger siblings, both of whom are still
+                in high school. In his free time, Zach enjoys reading, biking, folding origami, and playing video games.
+                He’s involved in both tech theatre, managing the Maple Middle School Musical for the past eight years in
+                a row, and at his local park district, where he’s been a camp counselor for the past seven years. He’s brought
+                these management skills to Bernstein &amp; Co., where he manages the behind-the-scenes operations of Bernstein
+                &amp; Co. In his freshman year at UVM, he enrolled in Intro to Web Design, where he grew to love using PHP
+                to set up advanced websites. In Burlington, Zach enjoys hanging out in the study room with his friends in
+                the dorm, as well as venturing down to the Lake Champlain waterfront. The mountains never cease to amaze
+                him, either.
+            </p>
         </a>
     </div>
     <div class="olivia">
@@ -44,7 +55,7 @@
         </a>
     </div>
     <p id="why">
-        <br> 
+        <br>
     </p>
 </article>
 <?php include "../_includes/footer.php";?>
