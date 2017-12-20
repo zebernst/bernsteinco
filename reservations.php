@@ -6,8 +6,7 @@
     //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
     //
     // Print out _POST array for debugging purposes
-    $debug = false;
-    if (isset($_GET["debug"])) $debug = true;
+    $debug = isset($_GET["debug"]);
 
     if ($debug) {
         print '<p>_POST Array:</p><pre>';
@@ -37,7 +36,7 @@
     // datetime
     $resDateTime = '';
 
-    // dropdown
+    // drop-down
     $location = 'Select a location...';
 
     // radio buttons
